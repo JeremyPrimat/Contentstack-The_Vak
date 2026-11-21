@@ -1,0 +1,1270 @@
+{
+ "Vak Snow": null,
+ "Vak Skate": null,
+ "Vak Surf": null,
+ "The Vak": null,
+ "Surf": null,
+ "Skate": null,
+ "Snow": null,
+ "Cold Water Season": null,
+ "Winter Swell Drop": null,
+ "Concrete Season": null,
+ "First Tracks": null,
+ "Winter Swell Drop | Vak Surf": null,
+ "Concrete Season | Vak Skate": null,
+ "First Tracks | Vak Snow": null,
+ "The Vak Barcelona – Skate Yard": null,
+ "The Vak Milano – Snow & Street": null,
+ "The Vak Nice – Riviera Shop": null,
+ "The Vak Biarritz – Surf House": null,
+ "The Vak Amsterdam – Flagship": null,
+ "Duin Women's Boardshort": null,
+ "Golfslag 18\" Boardshort": null,
+ "Zandvoort 3/2 Women's Wetsuit": null,
+ "Noordzee 5/4 Hooded Wetsuit": null,
+ "Pier Heavyweight Tee": null,
+ "Werf Work Pant": null,
+ "Kade Heavyweight Hoodie": null,
+ "Noord Mid Canvas Sneaker": null,
+ "Brug Low Suede Sneaker": null,
+ "Mist Cylindrical Goggle": null,
+ "Polder 3L Shell Jacket": null,
+ "Helder Spherical Goggle": null,
+ "Ijs Women's Insulated Jacket": null,
+ "Duin Women's Boardshort | Vak Surf": null,
+ "Golfslag 18\" Boardshort | Vak Surf": null,
+ "Zandvoort 3/2 Women's Wetsuit | Vak Surf": null,
+ "Noordzee 5/4 Hooded Wetsuit | Vak Surf": null,
+ "Pier Heavyweight Tee | Vak Skate": null,
+ "Werf Work Pant | Vak Skate": null,
+ "Kade Heavyweight Hoodie | Vak Skate": null,
+ "Noord Mid Canvas Sneaker | Vak Skate": null,
+ "Brug Low Suede Sneaker | Vak Skate": null,
+ "Mist Cylindrical Goggle | Vak Snow": null,
+ "Polder 3L Shell Jacket | Vak Snow": null,
+ "Helder Spherical Goggle | Vak Snow": null,
+ "Ijs Women's Insulated Jacket | Vak Snow": null,
+ "The Vak header": null,
+ "The Vak footer": null,
+ "Vak Surf header": null,
+ "Vak Surf footer": null,
+ "Vak Skate header": null,
+ "Vak Skate footer": null,
+ "Vak Snow header": null,
+ "Vak Snow footer": null,
+ "Vak Surf home": null,
+ "Vak Skate home": null,
+ "Vak Snow home": null,
+ "Streetwear": null,
+ "Flat country, steep ambitions.": {
+  "fr-fr": "Plat pays, grandes ambitions.",
+  "it-it": "Paese piatto, grandi ambizioni.",
+  "es-es": "País llano, grandes ambiciones."
+ },
+ "The Netherlands has no mountains, so every winter our crew packs the van and drives south to the Alps and the Pyrenees. Vak Snow makes the jackets and goggles we wish we had on those first frozen mornings.": {
+  "fr-fr": "Les Pays-Bas n'ont pas de montagnes : chaque hiver, notre crew charge le van et descend vers les Alpes et les Pyrénées. Vak Snow fabrique les vestes et les masques qu'on aurait aimé avoir lors de ces premiers matins gelés.",
+  "it-it": "I Paesi Bassi non hanno montagne: ogni inverno la nostra crew carica il van e scende verso le Alpi e i Pirenei. Vak Snow fa le giacche e le maschere che avremmo voluto avere in quelle prime mattine gelate.",
+  "es-es": "Los Países Bajos no tienen montañas, así que cada invierno nuestra crew carga la furgo y baja hacia los Alpes y los Pirineos. Vak Snow hace las chaquetas y máscaras que nos habría gustado tener en esas primeras mañanas heladas."
+ },
+ "Warm without bulk, clear in flat light, and tough enough for a season of road trips.": {
+  "fr-fr": "Chaud sans encombrer, net par jour blanc, et assez solide pour une saison de road trips.",
+  "it-it": "Caldo senza ingombro, nitido con luce piatta e abbastanza robusto per una stagione di road trip.",
+  "es-es": "Abriga sin abultar, se ve claro con luz plana y aguanta una temporada de road trips."
+ },
+ "Built on concrete, made for the city.": {
+  "fr-fr": "Né sur le béton, fait pour la ville.",
+  "it-it": "Nato sul cemento, fatto per la città.",
+  "es-es": "Nacido en el cemento, hecho para la ciudad."
+ },
+ "Vak Skate grew up under Amsterdam's bridges and in the car parks of Noord, where a flat bit of concrete is a playground. Our sneakers and streetwear are made to take slams, bike rides and late nights.": {
+  "fr-fr": "Vak Skate a grandi sous les ponts d'Amsterdam et dans les parkings de Noord, où le moindre bout de béton lisse devient un terrain de jeu. Nos sneakers et notre streetwear sont faits pour encaisser les chutes, le vélo et les nuits qui s'éternisent.",
+  "it-it": "Vak Skate è cresciuto sotto i ponti di Amsterdam e nei parcheggi di Noord, dove ogni pezzo di cemento liscio è un parco giochi. Le nostre sneakers e il nostro streetwear sono fatti per reggere cadute, giri in bici e notti lunghe.",
+  "es-es": "Vak Skate creció bajo los puentes de Ámsterdam y en los aparcamientos de Noord, donde cualquier trozo de cemento liso es un parque. Nuestras zapatillas y nuestro streetwear están hechos para aguantar caídas, bici y noches largas."
+ },
+ "Reinforced where it matters, simple everywhere else, and always shaped with the local crews who skate them.": {
+  "fr-fr": "Renforcé là où ça compte, simple partout ailleurs, et toujours conçu avec les crews locaux qui les rident.",
+  "it-it": "Rinforzato dove serve, semplice ovunque altrove e sempre disegnato con le crew locali che lo skatano.",
+  "es-es": "Reforzado donde importa, sencillo en todo lo demás y siempre diseñado con las crews locales que lo patinan."
+ },
+ "Cold water, warm crew.": {
+  "fr-fr": "Eau froide, crew chaleureux.",
+  "it-it": "Acqua fredda, crew calda.",
+  "es-es": "Agua fría, crew cálida."
+ },
+ "Vak Surf started on the North Sea beaches of Scheveningen, where the water is grey, the wind is relentless and the session never waits for good weather. We build wetsuits and boardshorts for people who paddle out anyway.": {
+  "fr-fr": "Vak Surf est né sur les plages de Scheveningen, au bord de la mer du Nord : l'eau y est grise, le vent ne lâche rien et la session n'attend jamais le beau temps. On fabrique des combinaisons et des boardshorts pour ceux qui vont à l'eau quand même.",
+  "it-it": "Vak Surf è nato sulle spiagge di Scheveningen, sul Mare del Nord: l'acqua è grigia, il vento non molla e la session non aspetta mai il bel tempo. Facciamo mute e boardshort per chi entra in acqua comunque.",
+  "es-es": "Vak Surf nació en las playas de Scheveningen, en el mar del Norte: el agua es gris, el viento no para y la sesión nunca espera al buen tiempo. Hacemos neoprenos y bañadores para quien entra al agua igualmente."
+ },
+ "Every suit is tested in winter swells from Zandvoort to Hossegor, and repaired, not replaced, whenever possible.": {
+  "fr-fr": "Chaque combinaison est testée dans les houles d'hiver, de Zandvoort à Hossegor, et réparée plutôt que remplacée dès que possible.",
+  "it-it": "Ogni muta è testata nelle mareggiate invernali da Zandvoort a Hossegor e, quando possibile, riparata invece che sostituita.",
+  "es-es": "Cada neopreno se prueba en el mar de invierno, de Zandvoort a Hossegor, y se repara en vez de sustituirse siempre que se puede."
+ },
+ "Winter 26/27": {
+  "fr-fr": "Hiver 26/27",
+  "it-it": "Inverno 26/27",
+  "es-es": "Invierno 26/27"
+ },
+ "The cold is where the good stuff starts.": {
+  "fr-fr": "C'est dans le froid que tout commence.",
+  "it-it": "È nel freddo che inizia il bello.",
+  "es-es": "Lo bueno empieza con el frío."
+ },
+ "From North Sea dawn patrols to the first chairlift of the year: one crew, three brands, and kit built for the coldest months. Members get early access to the winter drop and free repairs all season.": {
+  "fr-fr": "Des sessions à l'aube en mer du Nord au premier télésiège de l'année : un crew, trois marques et du matos pensé pour les mois les plus froids. Les membres ont un accès anticipé à la collection d'hiver et les réparations offertes toute la saison.",
+  "it-it": "Dalle session all'alba nel Mare del Nord alla prima seggiovia dell'anno: una crew, tre brand e attrezzatura pensata per i mesi più freddi. I membri hanno accesso anticipato alla collezione invernale e riparazioni gratuite per tutta la stagione.",
+  "es-es": "De las sesiones al amanecer en el mar del Norte al primer telesilla del año: una crew, tres marcas y equipo pensado para los meses más fríos. Los miembros tienen acceso anticipado a la colección de invierno y reparaciones gratis toda la temporada."
+ },
+ "Explore the winter drop": {
+  "fr-fr": "Découvrir la collection d'hiver",
+  "it-it": "Scopri la collezione invernale",
+  "es-es": "Descubre la colección de invierno"
+ },
+ "Winter drop": {
+  "fr-fr": "Collection d'hiver",
+  "it-it": "Collezione invernale",
+  "es-es": "Colección de invierno"
+ },
+ "Cold Water Season – The Vak": null,
+ "Winter wetsuits, insulated jackets and cold-proof streetwear from Vak Surf, Vak Skate and Vak Snow.": {
+  "fr-fr": "Combinaisons d'hiver, vestes isolées et streetwear résistant au froid signés Vak Surf, Vak Skate et Vak Snow.",
+  "it-it": "Mute invernali, giacche imbottite e streetwear a prova di freddo di Vak Surf, Vak Skate e Vak Snow.",
+  "es-es": "Neoprenos de invierno, chaquetas aislantes y streetwear a prueba de frío de Vak Surf, Vak Skate y Vak Snow."
+ },
+ "Spain": {
+  "fr-fr": "Espagne",
+  "it-it": "Spagna",
+  "es-es": "España"
+ },
+ "Italy": {
+  "fr-fr": "Italie",
+  "it-it": "Italia",
+  "es-es": "Italia"
+ },
+ "France": {
+  "fr-fr": "France",
+  "it-it": "Francia",
+  "es-es": "Francia"
+ },
+ "Netherlands": {
+  "fr-fr": "Pays-Bas",
+  "it-it": "Paesi Bassi",
+  "es-es": "Países Bajos"
+ },
+ "Home": {
+  "fr-fr": "Accueil",
+  "it-it": "Home",
+  "es-es": "Inicio"
+ },
+ "Born in Amsterdam": {
+  "fr-fr": "Né à Amsterdam",
+  "it-it": "Nato ad Amsterdam",
+  "es-es": "Nacido en Ámsterdam"
+ },
+ "Three boards. One crew.": {
+  "fr-fr": "Trois boards. Un crew.",
+  "it-it": "Tre tavole. Una crew.",
+  "es-es": "Tres tablas. Una crew."
+ },
+ "A boardsports collective from the flattest country in Europe. We surf grey North Sea swells, skate wet concrete and chase snow a thousand kilometres south.": {
+  "fr-fr": "Un collectif de boardsports venu du pays le plus plat d'Europe. On surfe les houles grises de la mer du Nord, on skate le béton mouillé et on part chercher la neige mille kilomètres plus au sud.",
+  "it-it": "Un collettivo di boardsport dal paese più piatto d'Europa. Surfiamo le onde grigie del Mare del Nord, skatiamo il cemento bagnato e inseguiamo la neve mille chilometri più a sud.",
+  "es-es": "Un colectivo de boardsports del país más llano de Europa. Surfeamos las olas grises del mar del Norte, patinamos cemento mojado y perseguimos la nieve mil kilómetros al sur."
+ },
+ "Meet the brands": {
+  "fr-fr": "Découvrir les marques",
+  "it-it": "Scopri i brand",
+  "es-es": "Conoce las marcas"
+ },
+ "Brands": {
+  "fr-fr": "Marques",
+  "it-it": "Brand",
+  "es-es": "Marcas"
+ },
+ "Paddle out anyway.": {
+  "fr-fr": "Va à l'eau quand même.",
+  "it-it": "Entra in acqua comunque.",
+  "es-es": "Entra al agua igualmente."
+ },
+ "Winter wetsuits tested from Scheveningen to Hossegor.": {
+  "fr-fr": "Des combinaisons d'hiver testées de Scheveningen à Hossegor.",
+  "it-it": "Mute invernali testate da Scheveningen a Hossegor.",
+  "es-es": "Neoprenos de invierno probados de Scheveningen a Hossegor."
+ },
+ "Shop Vak Surf": {
+  "fr-fr": "Voir Vak Surf",
+  "it-it": "Scopri Vak Surf",
+  "es-es": "Ver Vak Surf"
+ },
+ "Jackets and goggles for the first chair and the long drive home.": {
+  "fr-fr": "Des vestes et des masques pour le premier télésiège et la longue route du retour.",
+  "it-it": "Giacche e maschere per la prima seggiovia e il lungo viaggio di ritorno.",
+  "es-es": "Chaquetas y máscaras para el primer telesilla y el largo viaje de vuelta."
+ },
+ "Shop Vak Snow": {
+  "fr-fr": "Voir Vak Snow",
+  "it-it": "Scopri Vak Snow",
+  "es-es": "Ver Vak Snow"
+ },
+ "Pick your board": {
+  "fr-fr": "Choisis ta board",
+  "it-it": "Scegli la tua tavola",
+  "es-es": "Elige tu tabla"
+ },
+ "Go to Vak Surf": {
+  "fr-fr": "Aller sur Vak Surf",
+  "it-it": "Vai su Vak Surf",
+  "es-es": "Ir a Vak Surf"
+ },
+ "Go to Vak Skate": {
+  "fr-fr": "Aller sur Vak Skate",
+  "it-it": "Vai su Vak Skate",
+  "es-es": "Ir a Vak Skate"
+ },
+ "Go to Vak Snow": {
+  "fr-fr": "Aller sur Vak Snow",
+  "it-it": "Vai su Vak Snow",
+  "es-es": "Ir a Vak Snow"
+ },
+ "Our story": {
+  "fr-fr": "Notre histoire",
+  "it-it": "La nostra storia",
+  "es-es": "Nuestra historia"
+ },
+ "No mountains. No waves. No problem.": {
+  "fr-fr": "Pas de montagnes. Pas de vagues. Pas de problème.",
+  "it-it": "Niente montagne. Niente onde. Nessun problema.",
+  "es-es": "Sin montañas. Sin olas. Sin problema."
+ },
+ "The Vak began as a shared van, a workshop in Amsterdam-Noord and a group chat called 'Vak' - Dutch for both 'craft' and 'the space between the lines'. Today it is three house brands and five stores, still run like a crew.": {
+  "fr-fr": "The Vak a commencé avec un van partagé, un atelier à Amsterdam-Noord et un groupe de discussion appelé « Vak » : en néerlandais, à la fois « le savoir-faire » et « l'espace entre les lignes ». Aujourd'hui, ce sont trois marques maison et cinq magasins, toujours gérés comme un crew.",
+  "it-it": "The Vak è nato con un van condiviso, un laboratorio ad Amsterdam-Noord e una chat di gruppo chiamata «Vak»: in olandese significa sia «mestiere» sia «lo spazio tra le righe». Oggi sono tre brand e cinque negozi, ancora gestiti come una crew.",
+  "es-es": "The Vak empezó con una furgo compartida, un taller en Ámsterdam-Noord y un chat de grupo llamado «Vak», que en neerlandés significa tanto «oficio» como «el espacio entre líneas». Hoy son tres marcas propias y cinco tiendas, todavía llevadas como una crew."
+ },
+ "About The Vak": {
+  "fr-fr": "À propos de The Vak",
+  "it-it": "Chi è The Vak",
+  "es-es": "Sobre The Vak"
+ },
+ "About": {
+  "fr-fr": "À propos",
+  "it-it": "Chi siamo",
+  "es-es": "Sobre nosotros"
+ },
+ "The house brands": {
+  "fr-fr": "Les marques maison",
+  "it-it": "I nostri brand",
+  "es-es": "Nuestras marcas"
+ },
+ "Each brand has its own site, its own colour and its own crew. Same values everywhere: built to last, repaired when it breaks.": {
+  "fr-fr": "Chaque marque a son site, sa couleur et son crew. Partout les mêmes valeurs : fait pour durer, réparé quand ça casse.",
+  "it-it": "Ogni brand ha il suo sito, il suo colore e la sua crew. Gli stessi valori ovunque: fatto per durare, riparato quando si rompe.",
+  "es-es": "Cada marca tiene su web, su color y su crew. Los mismos valores en todas: hecho para durar, reparado cuando se rompe."
+ },
+ "The Vak - Boardsports Collective from Amsterdam": {
+  "fr-fr": "The Vak - Collectif de boardsports d'Amsterdam",
+  "it-it": "The Vak - Collettivo di boardsport di Amsterdam",
+  "es-es": "The Vak - Colectivo de boardsports de Ámsterdam"
+ },
+ "Surf, skate and snow gear from Vak Surf, Vak Skate and Vak Snow. Born in Amsterdam, riding across Europe.": {
+  "fr-fr": "Du matos surf, skate et snow par Vak Surf, Vak Skate et Vak Snow. Né à Amsterdam, ridé partout en Europe.",
+  "it-it": "Attrezzatura surf, skate e snow di Vak Surf, Vak Skate e Vak Snow. Nata ad Amsterdam, usata in tutta Europa.",
+  "es-es": "Equipo de surf, skate y snow de Vak Surf, Vak Skate y Vak Snow. Nacido en Ámsterdam, rodando por toda Europa."
+ },
+ "Since a rainy Tuesday in 2014": {
+  "fr-fr": "Depuis un mardi pluvieux de 2014",
+  "it-it": "Da un martedì piovoso del 2014",
+  "es-es": "Desde un martes lluvioso de 2014"
+ },
+ "A crew before a company": {
+  "fr-fr": "Un crew avant d'être une entreprise",
+  "it-it": "Una crew prima che un'azienda",
+  "es-es": "Una crew antes que una empresa"
+ },
+ "Five friends, one leaking van and a workshop under a bridge in Amsterdam-Noord. We fixed each other's wetsuits, glued each other's shoes and drove south every February. People kept asking where our gear came from, so we started making it.": {
+  "fr-fr": "Cinq potes, un van qui prenait l'eau et un atelier sous un pont d'Amsterdam-Noord. On réparait nos combinaisons, on recollait nos chaussures et on descendait vers le sud chaque février. Les gens nous demandaient d'où venait notre matos, alors on a commencé à le fabriquer.",
+  "it-it": "Cinque amici, un van che imbarcava acqua e un laboratorio sotto un ponte di Amsterdam-Noord. Ci riparavamo le mute, ci rincollavamo le scarpe e ogni febbraio scendevamo a sud. Tutti ci chiedevano da dove venisse la nostra attrezzatura, così abbiamo iniziato a farla.",
+  "es-es": "Cinco amigos, una furgo con goteras y un taller bajo un puente de Ámsterdam-Noord. Nos arreglábamos los neoprenos, nos pegábamos las zapatillas y bajábamos al sur cada febrero. La gente no paraba de preguntar de dónde salía nuestro equipo, así que empezamos a fabricarlo."
+ },
+ "The Vak is now three house brands, five stores and a repair programme that keeps thousands of products in the water, on the street and on the slopes.": {
+  "fr-fr": "The Vak, c'est aujourd'hui trois marques maison, cinq magasins et un programme de réparation qui garde des milliers de produits à l'eau, dans la rue et sur les pistes.",
+  "it-it": "Oggi The Vak sono tre brand, cinque negozi e un programma di riparazione che tiene migliaia di prodotti in acqua, in strada e sulle piste.",
+  "es-es": "Hoy The Vak son tres marcas propias, cinco tiendas y un programa de reparación que mantiene miles de productos en el agua, en la calle y en las pistas."
+ },
+ "How we work": {
+  "fr-fr": "Notre façon de faire",
+  "it-it": "Come lavoriamo",
+  "es-es": "Cómo trabajamos"
+ },
+ "Repair first, replace last": {
+  "fr-fr": "Réparer d'abord, remplacer en dernier",
+  "it-it": "Prima riparare, poi sostituire",
+  "es-es": "Reparar primero, sustituir al final"
+ },
+ "Every store has a repair bench. Bring any Vak product, from any year, and we will patch it, re-glue it or tell you honestly when it is time to recycle it.": {
+  "fr-fr": "Chaque magasin a son établi de réparation. Apporte n'importe quel produit Vak, de n'importe quelle année : on le rapièce, on le recolle ou on te dit honnêtement quand il est temps de le recycler.",
+  "it-it": "Ogni negozio ha un banco riparazioni. Porta qualsiasi prodotto Vak, di qualsiasi anno: lo rattoppiamo, lo rincolliamo o ti diciamo onestamente quando è ora di riciclarlo.",
+  "es-es": "Cada tienda tiene un banco de reparación. Trae cualquier producto Vak, de cualquier año: lo parcheamos, lo volvemos a pegar o te decimos con honestidad cuándo toca reciclarlo."
+ },
+ "Find a store": {
+  "fr-fr": "Trouver un magasin",
+  "it-it": "Trova un negozio",
+  "es-es": "Encuentra una tienda"
+ },
+ "Stores": {
+  "fr-fr": "Magasins",
+  "it-it": "Negozi",
+  "es-es": "Tiendas"
+ },
+ "Three house brands": {
+  "fr-fr": "Trois marques maison",
+  "it-it": "Tre brand",
+  "es-es": "Tres marcas propias"
+ },
+ "How five friends from Amsterdam built a boardsports collective with three house brands and a repair-first philosophy.": {
+  "fr-fr": "Comment cinq potes d'Amsterdam ont créé un collectif de boardsports avec trois marques maison et une philosophie : réparer d'abord.",
+  "it-it": "Come cinque amici di Amsterdam hanno creato un collettivo di boardsport con tre brand e una filosofia: prima riparare.",
+  "es-es": "Cómo cinco amigos de Ámsterdam crearon un colectivo de boardsports con tres marcas propias y una filosofía: reparar primero."
+ },
+ "Come ride with us": {
+  "fr-fr": "Viens rider avec nous",
+  "it-it": "Vieni a girare con noi",
+  "es-es": "Ven a rodar con nosotros"
+ },
+ "Five stores, five repair benches, one crew. Drop in for gear, a fix or local spot tips.": {
+  "fr-fr": "Cinq magasins, cinq établis de réparation, un crew. Passe pour du matos, une réparation ou des bons plans spots.",
+  "it-it": "Cinque negozi, cinque banchi riparazioni, una crew. Passa per l'attrezzatura, una riparazione o qualche dritta sugli spot.",
+  "es-es": "Cinco tiendas, cinco bancos de reparación, una crew. Pásate a por equipo, una reparación o consejos sobre spots."
+ },
+ "The Vak stores - Amsterdam, Biarritz, Nice, Milano, Barcelona": {
+  "fr-fr": "Magasins The Vak - Amsterdam, Biarritz, Nice, Milan, Barcelone",
+  "it-it": "Negozi The Vak - Amsterdam, Biarritz, Nizza, Milano, Barcellona",
+  "es-es": "Tiendas The Vak - Ámsterdam, Biarritz, Niza, Milán, Barcelona"
+ },
+ "Find a The Vak store and repair bench near you.": {
+  "fr-fr": "Trouve un magasin The Vak et un établi de réparation près de chez toi.",
+  "it-it": "Trova un negozio The Vak e un banco riparazioni vicino a te.",
+  "es-es": "Encuentra una tienda The Vak y un banco de reparación cerca de ti."
+ },
+ "Free repairs on every Vak product, every season.": {
+  "fr-fr": "Réparations offertes sur tous les produits Vak, à chaque saison.",
+  "it-it": "Riparazioni gratuite su ogni prodotto Vak, ogni stagione.",
+  "es-es": "Reparaciones gratis en todos los productos Vak, cada temporada."
+ },
+ "Women": {
+  "fr-fr": "Femme",
+  "it-it": "Donna",
+  "es-es": "Mujer"
+ },
+ "Men": {
+  "fr-fr": "Homme",
+  "it-it": "Uomo",
+  "es-es": "Hombre"
+ },
+ "Kids": {
+  "fr-fr": "Enfant",
+  "it-it": "Bambini",
+  "es-es": "Niños"
+ },
+ "Wetsuits": {
+  "fr-fr": "Combinaisons",
+  "it-it": "Mute",
+  "es-es": "Neoprenos"
+ },
+ "Boardshorts": {
+  "fr-fr": "Boardshorts",
+  "it-it": "Boardshort",
+  "es-es": "Bañadores"
+ },
+ "Sneakers": {
+  "fr-fr": "Sneakers",
+  "it-it": "Sneakers",
+  "es-es": "Zapatillas"
+ },
+ "Jackets": {
+  "fr-fr": "Vestes",
+  "it-it": "Giacche",
+  "es-es": "Chaquetas"
+ },
+ "Goggles": {
+  "fr-fr": "Masques",
+  "it-it": "Maschere",
+  "es-es": "Máscaras"
+ },
+ "All boards": {
+  "fr-fr": "Toutes les boards",
+  "it-it": "Tutte le tavole",
+  "es-es": "Todas las tablas"
+ },
+ "Kids wetsuits": {
+  "fr-fr": "Combinaisons enfant",
+  "it-it": "Mute bambini",
+  "es-es": "Neoprenos niños"
+ },
+ "Kids sneakers": {
+  "fr-fr": "Sneakers enfant",
+  "it-it": "Sneakers bambini",
+  "es-es": "Zapatillas niños"
+ },
+ "Kids snow": {
+  "fr-fr": "Snow enfant",
+  "it-it": "Snow bambini",
+  "es-es": "Snow niños"
+ },
+ "Kids jackets": {
+  "fr-fr": "Vestes enfant",
+  "it-it": "Giacche bambini",
+  "es-es": "Chaquetas niños"
+ },
+ "The brands": {
+  "fr-fr": "Les marques",
+  "it-it": "I brand",
+  "es-es": "Las marcas"
+ },
+ "Help": {
+  "fr-fr": "Aide",
+  "it-it": "Aiuto",
+  "es-es": "Ayuda"
+ },
+ "Repairs": {
+  "fr-fr": "Réparations",
+  "it-it": "Riparazioni",
+  "es-es": "Reparaciones"
+ },
+ "Shipping & returns": {
+  "fr-fr": "Livraison et retours",
+  "it-it": "Spedizioni e resi",
+  "es-es": "Envíos y devoluciones"
+ },
+ "Contact": {
+  "fr-fr": "Contact",
+  "it-it": "Contatti",
+  "es-es": "Contacto"
+ },
+ "Join the crew": {
+  "fr-fr": "Rejoins le crew",
+  "it-it": "Unisciti alla crew",
+  "es-es": "Únete a la crew"
+ },
+ "Swell alerts, snow reports and first dibs on new drops. One email a month, never more.": {
+  "fr-fr": "Alertes houle, bulletins neige et accès en avant-première aux nouveautés. Un e-mail par mois, jamais plus.",
+  "it-it": "Allerte mareggiate, bollettini neve e accesso in anteprima alle novità. Una email al mese, mai di più.",
+  "es-es": "Alertas de olas, partes de nieve y acceso anticipado a las novedades. Un email al mes, nunca más."
+ },
+ "The Vak is a fictional brand created for a Contentstack demo. All names, copy and addresses are invented.": {
+  "fr-fr": "The Vak est une marque fictive créée pour une démo Contentstack. Noms, textes et adresses sont inventés.",
+  "it-it": "The Vak è un brand immaginario creato per una demo Contentstack. Nomi, testi e indirizzi sono inventati.",
+  "es-es": "The Vak es una marca ficticia creada para una demo de Contentstack. Nombres, textos y direcciones son inventados."
+ },
+ "Guides": {
+  "fr-fr": "Guides",
+  "it-it": "Guide",
+  "es-es": "Guías"
+ },
+ "Shop": {
+  "fr-fr": "Boutique",
+  "it-it": "Shop",
+  "es-es": "Tienda"
+ },
+ "Group site": {
+  "fr-fr": "Site du groupe",
+  "it-it": "Sito del gruppo",
+  "es-es": "Web del grupo"
+ },
+ "© 2026 The Vak Boardsports Collective. Fictional demo brand.": {
+  "fr-fr": "© 2026 The Vak Boardsports Collective. Marque fictive de démo.",
+  "it-it": "© 2026 The Vak Boardsports Collective. Brand demo immaginario.",
+  "es-es": "© 2026 The Vak Boardsports Collective. Marca ficticia de demo."
+ },
+ "Size guide": {
+  "fr-fr": "Guide des tailles",
+  "it-it": "Guida alle taglie",
+  "es-es": "Guía de tallas"
+ },
+ "Quick-dry shorts that stay put through duck dives and beach cleanups.": {
+  "fr-fr": "Des shorts qui sèchent vite et restent en place, du canard au nettoyage de plage.",
+  "it-it": "Boardshort ad asciugatura rapida che restano al loro posto tra duck dive e pulizie della spiaggia.",
+  "es-es": "Bañadores de secado rápido que no se mueven ni en los patos ni en las limpiezas de playa."
+ },
+ "Full suits and springsuits for North Sea winters and Atlantic summers.": {
+  "fr-fr": "Des intégrales et des shorties pour les hivers de la mer du Nord et les étés atlantiques.",
+  "it-it": "Mute integrali e shorty per gli inverni del Mare del Nord e le estati atlantiche.",
+  "es-es": "Integrales y shorties para los inviernos del mar del Norte y los veranos atlánticos."
+ },
+ "Mid-length women's boardshort with a drawcord waist.": {
+  "fr-fr": "Boardshort femme mi-long avec cordon de serrage.",
+  "it-it": "Boardshort donna di media lunghezza con coulisse in vita.",
+  "es-es": "Bañador de mujer de largo medio con cordón en la cintura."
+ },
+ "Quick to dry, soft on the legs and cut to stay in place on the board and in the dunes afterwards.": {
+  "fr-fr": "Sèche vite, doux sur les jambes et coupé pour rester en place sur la board comme dans les dunes après.",
+  "it-it": "Asciuga in fretta, morbido sulle gambe e tagliato per restare a posto sulla tavola e poi tra le dune.",
+  "es-es": "Se seca rápido, es suave en las piernas y está cortado para no moverse en la tabla ni después en las dunas."
+ },
+ "Drawcord waist": {
+  "fr-fr": "Cordon de serrage",
+  "it-it": "Coulisse in vita",
+  "es-es": "Cordón en la cintura"
+ },
+ "Quick-dry fabric": {
+  "fr-fr": "Tissu à séchage rapide",
+  "it-it": "Tessuto ad asciugatura rapida",
+  "es-es": "Tejido de secado rápido"
+ },
+ "90% recycled polyester, 10% elastane": {
+  "fr-fr": "90 % polyester recyclé, 10 % élasthanne",
+  "it-it": "90% poliestere riciclato, 10% elastan",
+  "es-es": "90 % poliéster reciclado, 10 % elastano"
+ },
+ "A mid-length women's boardshort that dries fast.": {
+  "fr-fr": "Un boardshort femme mi-long qui sèche vite.",
+  "it-it": "Un boardshort donna di media lunghezza che asciuga in fretta.",
+  "es-es": "Un bañador de mujer de largo medio que se seca rápido."
+ },
+ "Four-way stretch boardshort with a locking fly.": {
+  "fr-fr": "Boardshort stretch 4 directions avec braguette verrouillable.",
+  "it-it": "Boardshort elasticizzato in 4 direzioni con patta a blocco.",
+  "es-es": "Bañador elástico en 4 direcciones con bragueta de cierre."
+ },
+ "An 18-inch boardshort made from recycled bottles, with a fly that stays shut through every duck dive.": {
+  "fr-fr": "Un boardshort de 18 pouces fait à partir de bouteilles recyclées, avec une braguette qui reste fermée à chaque canard.",
+  "it-it": "Un boardshort da 18 pollici fatto con bottiglie riciclate, con una patta che resta chiusa a ogni duck dive.",
+  "es-es": "Un bañador de 18 pulgadas hecho con botellas recicladas, con una bragueta que no se abre en ningún pato."
+ },
+ "4-way stretch": {
+  "fr-fr": "Stretch 4 directions",
+  "it-it": "Elasticizzato in 4 direzioni",
+  "es-es": "Elástico en 4 direcciones"
+ },
+ "Locking fly": {
+  "fr-fr": "Braguette verrouillable",
+  "it-it": "Patta a blocco",
+  "es-es": "Bragueta de cierre"
+ },
+ "Key pocket": {
+  "fr-fr": "Poche à clé",
+  "it-it": "Tasca portachiavi",
+  "es-es": "Bolsillo para llaves"
+ },
+ "88% recycled polyester, 12% elastane": {
+  "fr-fr": "88 % polyester recyclé, 12 % élasthanne",
+  "it-it": "88% poliestere riciclato, 12% elastan",
+  "es-es": "88 % poliéster reciclado, 12 % elastano"
+ },
+ "Four-way stretch boardshort made from recycled bottles.": {
+  "fr-fr": "Boardshort stretch 4 directions fait à partir de bouteilles recyclées.",
+  "it-it": "Boardshort elasticizzato in 4 direzioni fatto con bottiglie riciclate.",
+  "es-es": "Bañador elástico en 4 direcciones hecho con botellas recicladas."
+ },
+ "Back-zip fullsuit for spring and autumn swells.": {
+  "fr-fr": "Intégrale zip dans le dos pour les houles de printemps et d'automne.",
+  "it-it": "Muta integrale con zip sulla schiena per le mareggiate di primavera e autunno.",
+  "es-es": "Integral con cremallera trasera para el mar de primavera y otoño."
+ },
+ "A women's cut 3/2 with stretch panels across the shoulders for long paddles, and a back zip that's easy to reach with cold hands.": {
+  "fr-fr": "Une 3/2 coupe femme avec des empiècements stretch aux épaules pour les longues rames, et un zip dans le dos facile à attraper avec les mains froides.",
+  "it-it": "Una 3/2 da donna con pannelli elastici sulle spalle per le lunghe remate e una zip sulla schiena facile da raggiungere con le mani fredde.",
+  "es-es": "Un 3/2 de corte femenino con paneles elásticos en los hombros para remadas largas y una cremallera trasera fácil de alcanzar con las manos frías."
+ },
+ "3/2 mm neoprene": {
+  "fr-fr": "Néoprène 3/2 mm",
+  "it-it": "Neoprene 3/2 mm",
+  "es-es": "Neopreno 3/2 mm"
+ },
+ "Back zip": {
+  "fr-fr": "Zip dans le dos",
+  "it-it": "Zip sulla schiena",
+  "es-es": "Cremallera trasera"
+ },
+ "Stretch shoulder panels": {
+  "fr-fr": "Épaules stretch",
+  "it-it": "Spalle elasticizzate",
+  "es-es": "Hombros elásticos"
+ },
+ "Limestone-based neoprene, recycled polyester jersey": {
+  "fr-fr": "Néoprène à base de calcaire, jersey en polyester recyclé",
+  "it-it": "Neoprene a base di calcare, jersey in poliestere riciclato",
+  "es-es": "Neopreno a base de caliza, punto de poliéster reciclado"
+ },
+ "A women's 3/2 wetsuit for spring and autumn on the Dutch coast.": {
+  "fr-fr": "Une combinaison femme 3/2 pour le printemps et l'automne sur la côte néerlandaise.",
+  "it-it": "Una muta da donna 3/2 per la primavera e l'autunno sulla costa olandese.",
+  "es-es": "Un neopreno de mujer 3/2 para la primavera y el otoño en la costa neerlandesa."
+ },
+ "Chest-zip hooded fullsuit for 6–10°C water.": {
+  "fr-fr": "Intégrale à capuche zip poitrine pour une eau à 6–10 °C.",
+  "it-it": "Muta integrale con cappuccio e zip sul petto per acqua a 6–10 °C.",
+  "es-es": "Integral con capucha y cremallera en el pecho para agua a 6–10 °C."
+ },
+ "Built for January sessions at Scheveningen: thermal lining across the chest and back, glued and blind-stitched seams, and an integrated hood that seals without choking.": {
+  "fr-fr": "Pensée pour les sessions de janvier à Scheveningen : doublure thermique sur le torse et le dos, coutures collées et cousues à l'aveugle, et capuche intégrée qui reste étanche sans t'étrangler.",
+  "it-it": "Pensata per le session di gennaio a Scheveningen: fodera termica su petto e schiena, cuciture incollate e cieche e cappuccio integrato che sigilla senza soffocare.",
+  "es-es": "Pensado para las sesiones de enero en Scheveningen: forro térmico en pecho y espalda, costuras pegadas y cosidas a ciegas, y capucha integrada que sella sin ahogarte."
+ },
+ "5/4 mm limestone neoprene": {
+  "fr-fr": "Néoprène calcaire 5/4 mm",
+  "it-it": "Neoprene a base di calcare 5/4 mm",
+  "es-es": "Neopreno de caliza 5/4 mm"
+ },
+ "Thermal grid lining": {
+  "fr-fr": "Doublure thermique quadrillée",
+  "it-it": "Fodera termica a griglia",
+  "es-es": "Forro térmico de rejilla"
+ },
+ "Chest zip with integrated hood": {
+  "fr-fr": "Zip poitrine avec capuche intégrée",
+  "it-it": "Zip sul petto con cappuccio integrato",
+  "es-es": "Cremallera en el pecho con capucha integrada"
+ },
+ "Free repairs for life": {
+  "fr-fr": "Réparations offertes à vie",
+  "it-it": "Riparazioni gratuite a vita",
+  "es-es": "Reparaciones gratis de por vida"
+ },
+ "A hooded 5/4 wetsuit built for North Sea winters.": {
+  "fr-fr": "Une combinaison 5/4 à capuche pensée pour les hivers de la mer du Nord.",
+  "it-it": "Una muta 5/4 con cappuccio pensata per gli inverni del Mare del Nord.",
+  "es-es": "Un neopreno 5/4 con capucha pensado para los inviernos del mar del Norte."
+ },
+ "Vak Surf · Winter 26": {
+  "fr-fr": "Vak Surf · Hiver 26",
+  "it-it": "Vak Surf · Inverno 26",
+  "es-es": "Vak Surf · Invierno 26"
+ },
+ "Paddle out when everyone else stays home.": {
+  "fr-fr": "Va à l'eau quand tout le monde reste au chaud.",
+  "it-it": "Entra in acqua quando tutti gli altri restano a casa.",
+  "es-es": "Entra al agua cuando todos los demás se quedan en casa."
+ },
+ "Our warmest suits are back, tested through a full North Sea winter.": {
+  "fr-fr": "Nos combinaisons les plus chaudes sont de retour, testées tout un hiver en mer du Nord.",
+  "it-it": "Tornano le nostre mute più calde, testate per un intero inverno nel Mare del Nord.",
+  "es-es": "Vuelven nuestros neoprenos más calientes, probados durante todo un invierno en el mar del Norte."
+ },
+ "Shop wetsuits": {
+  "fr-fr": "Voir les combinaisons",
+  "it-it": "Scopri le mute",
+  "es-es": "Ver neoprenos"
+ },
+ "Winter wetsuits tested in the North Sea.": {
+  "fr-fr": "Des combinaisons d'hiver testées en mer du Nord.",
+  "it-it": "Mute invernali testate nel Mare del Nord.",
+  "es-es": "Neoprenos de invierno probados en el mar del Norte."
+ },
+ "Hooded 5/4 suits tested through a full North Sea winter.": {
+  "fr-fr": "Des 5/4 à capuche testées tout un hiver en mer du Nord.",
+  "it-it": "Mute 5/4 con cappuccio testate per un intero inverno nel Mare del Nord.",
+  "es-es": "Neoprenos 5/4 con capucha probados todo un invierno en el mar del Norte."
+ },
+ "Summer leftovers": {
+  "fr-fr": "Les restes de l'été",
+  "it-it": "Gli avanzi dell'estate",
+  "es-es": "Lo que queda del verano"
+ },
+ "Boardshorts for the brave.": {
+  "fr-fr": "Des boardshorts pour les courageux.",
+  "it-it": "Boardshort per i coraggiosi.",
+  "es-es": "Bañadores para valientes."
+ },
+ "Four-way stretch, made from recycled bottles.": {
+  "fr-fr": "Stretch 4 directions, fait à partir de bouteilles recyclées.",
+  "it-it": "Elasticizzato in 4 direzioni, fatto con bottiglie riciclate.",
+  "es-es": "Elástico en 4 direcciones, hecho con botellas recicladas."
+ },
+ "Shop boardshorts": {
+  "fr-fr": "Voir les boardshorts",
+  "it-it": "Scopri i boardshort",
+  "es-es": "Ver bañadores"
+ },
+ "Shop by category": {
+  "fr-fr": "Acheter par catégorie",
+  "it-it": "Acquista per categoria",
+  "es-es": "Compra por categoría"
+ },
+ "Best sellers": {
+  "fr-fr": "Meilleures ventes",
+  "it-it": "I più venduti",
+  "es-es": "Más vendidos"
+ },
+ "See all": {
+  "fr-fr": "Tout voir",
+  "it-it": "Vedi tutto",
+  "es-es": "Ver todo"
+ },
+ "Born on the North Sea": {
+  "fr-fr": "Né sur la mer du Nord",
+  "it-it": "Nato sul Mare del Nord",
+  "es-es": "Nacido en el mar del Norte"
+ },
+ "We build wetsuits for people who paddle out anyway, and repair them instead of replacing them.": {
+  "fr-fr": "On fabrique des combinaisons pour ceux qui vont à l'eau quand même, et on les répare au lieu de les remplacer.",
+  "it-it": "Facciamo mute per chi entra in acqua comunque, e le ripariamo invece di sostituirle.",
+  "es-es": "Hacemos neoprenos para quien entra al agua igualmente, y los reparamos en vez de sustituirlos."
+ },
+ "About Vak Surf": {
+  "fr-fr": "À propos de Vak Surf",
+  "it-it": "Chi è Vak Surf",
+  "es-es": "Sobre Vak Surf"
+ },
+ "Vak Surf – Wetsuits and boardshorts from the North Sea": {
+  "fr-fr": "Vak Surf – Combinaisons et boardshorts de la mer du Nord",
+  "it-it": "Vak Surf – Mute e boardshort dal Mare del Nord",
+  "es-es": "Vak Surf – Neoprenos y bañadores del mar del Norte"
+ },
+ "Wetsuits and boardshorts built for cold water, by The Vak Boardsports Collective.": {
+  "fr-fr": "Des combinaisons et des boardshorts pensés pour l'eau froide, par The Vak Boardsports Collective.",
+  "it-it": "Mute e boardshort pensati per l'acqua fredda, da The Vak Boardsports Collective.",
+  "es-es": "Neoprenos y bañadores pensados para el agua fría, por The Vak Boardsports Collective."
+ },
+ "Free wetsuit repairs, every season.": {
+  "fr-fr": "Réparations de combinaisons offertes, à chaque saison.",
+  "it-it": "Riparazioni gratuite delle mute, ogni stagione.",
+  "es-es": "Reparaciones de neoprenos gratis, cada temporada."
+ },
+ "Wetsuit guide": {
+  "fr-fr": "Guide des combinaisons",
+  "it-it": "Guida alle mute",
+  "es-es": "Guía de neoprenos"
+ },
+ "Swell alerts": {
+  "fr-fr": "Alertes houle",
+  "it-it": "Allerte mareggiate",
+  "es-es": "Alertas de olas"
+ },
+ "One email when a proper swell hits the North Sea. No spam.": {
+  "fr-fr": "Un e-mail quand une vraie houle arrive en mer du Nord. Pas de spam.",
+  "it-it": "Una email quando arriva una vera mareggiata nel Mare del Nord. Niente spam.",
+  "es-es": "Un email cuando entra un buen swell en el mar del Norte. Sin spam."
+ },
+ "Hoodies, work pants and tees cut for pushing and riding a bike.": {
+  "fr-fr": "Des hoodies, des pantalons de travail et des tees coupés pour pousser et rouler à vélo.",
+  "it-it": "Felpe, pantaloni da lavoro e t-shirt tagliati per spingere e andare in bici.",
+  "es-es": "Sudaderas, pantalones de trabajo y camisetas cortados para empujar y montar en bici."
+ },
+ "Vulcanised and cupsole shoes with reinforced ollie zones.": {
+  "fr-fr": "Des chaussures vulcanisées et cupsole avec zone d'ollie renforcée.",
+  "it-it": "Scarpe vulcanizzate e cupsole con zona ollie rinforzata.",
+  "es-es": "Zapatillas vulcanizadas y cupsole con zona de ollie reforzada."
+ },
+ "Boxy 240 gsm tee that keeps its shape after a hundred washes.": {
+  "fr-fr": "Tee boxy 240 g/m² qui garde sa forme après cent lavages.",
+  "it-it": "T-shirt boxy da 240 g/m² che mantiene la forma dopo cento lavaggi.",
+  "es-es": "Camiseta boxy de 240 g/m² que mantiene la forma tras cien lavados."
+ },
+ "Heavy organic cotton, a slightly dropped shoulder and a ribbed collar that doesn't give up. Made for long summer sessions at the IJ-hallen and everything after.": {
+  "fr-fr": "Coton bio épais, épaule légèrement tombante et col côtelé qui ne lâche pas. Fait pour les longues sessions d'été aux IJ-hallen et tout ce qui suit.",
+  "it-it": "Cotone biologico pesante, spalla leggermente scesa e collo a costine che non cede. Fatto per le lunghe session estive agli IJ-hallen e per tutto quello che viene dopo.",
+  "es-es": "Algodón orgánico grueso, hombro ligeramente caído y cuello acanalado que no se da de sí. Hecha para largas sesiones de verano en los IJ-hallen y todo lo que viene después."
+ },
+ "240 gsm organic cotton": {
+  "fr-fr": "Coton bio 240 g/m²",
+  "it-it": "Cotone biologico 240 g/m²",
+  "es-es": "Algodón orgánico 240 g/m²"
+ },
+ "Boxy fit, dropped shoulder": {
+  "fr-fr": "Coupe boxy, épaule tombante",
+  "it-it": "Vestibilità boxy, spalla scesa",
+  "es-es": "Corte boxy, hombro caído"
+ },
+ "Ribbed collar": {
+  "fr-fr": "Col côtelé",
+  "it-it": "Collo a costine",
+  "es-es": "Cuello acanalado"
+ },
+ "100% organic cotton": {
+  "fr-fr": "100 % coton bio",
+  "it-it": "100% cotone biologico",
+  "es-es": "100 % algodón orgánico"
+ },
+ "A boxy 240 gsm organic cotton tee built for skating.": {
+  "fr-fr": "Un tee boxy en coton bio 240 g/m² pensé pour le skate.",
+  "it-it": "Una t-shirt boxy in cotone biologico da 240 g/m² pensata per lo skate.",
+  "es-es": "Una camiseta boxy de algodón orgánico de 240 g/m² pensada para patinar."
+ },
+ "Relaxed canvas work pant with a gusseted crotch.": {
+  "fr-fr": "Pantalon de travail en toile, coupe ample avec entrejambe à soufflet.",
+  "it-it": "Pantalone da lavoro in tela, comodo, con cavallo a soffietto.",
+  "es-es": "Pantalón de trabajo de lona, holgado, con entrepierna de fuelle."
+ },
+ "Relaxed through the leg, gusseted for big pops, and tough enough for the shipyard spots of Noord.": {
+  "fr-fr": "Ample sur la jambe, avec soufflet pour les gros pops, et assez solide pour les spots des chantiers navals de Noord.",
+  "it-it": "Comodo sulla gamba, con soffietto per i pop più alti e abbastanza resistente per gli spot dei cantieri navali di Noord.",
+  "es-es": "Holgado en la pierna, con fuelle para los pops grandes y lo bastante resistente para los spots de los astilleros de Noord."
+ },
+ "Gusseted crotch": {
+  "fr-fr": "Entrejambe à soufflet",
+  "it-it": "Cavallo a soffietto",
+  "es-es": "Entrepierna de fuelle"
+ },
+ "Double knees": {
+  "fr-fr": "Genoux doublés",
+  "it-it": "Ginocchia doppie",
+  "es-es": "Rodillas dobles"
+ },
+ "Tool pocket": {
+  "fr-fr": "Poche outil",
+  "it-it": "Tasca porta attrezzi",
+  "es-es": "Bolsillo para herramientas"
+ },
+ "100% organic cotton canvas": {
+  "fr-fr": "Toile 100 % coton bio",
+  "it-it": "Tela 100% cotone biologico",
+  "es-es": "Lona 100 % algodón orgánico"
+ },
+ "A relaxed canvas work pant built for skating.": {
+  "fr-fr": "Un pantalon de travail en toile ample pensé pour le skate.",
+  "it-it": "Un pantalone da lavoro in tela comodo pensato per lo skate.",
+  "es-es": "Un pantalón de trabajo de lona holgado pensado para patinar."
+ },
+ "Boxy 450 gsm hoodie with a double-layer hood.": {
+  "fr-fr": "Hoodie boxy 450 g/m² avec capuche doublée.",
+  "it-it": "Felpa boxy da 450 g/m² con cappuccio doppio.",
+  "es-es": "Sudadera boxy de 450 g/m² con capucha doble."
+ },
+ "A heavy, boxy hoodie for cold evenings on the quay, with reinforced elbows for the inevitable slam.": {
+  "fr-fr": "Un hoodie épais et boxy pour les soirées froides sur le quai, avec des coudes renforcés pour la chute inévitable.",
+  "it-it": "Una felpa pesante e boxy per le serate fredde sul molo, con gomiti rinforzati per l'inevitabile caduta.",
+  "es-es": "Una sudadera gruesa y boxy para las noches frías en el muelle, con codos reforzados para la caída inevitable."
+ },
+ "450 gsm brushed fleece": {
+  "fr-fr": "Molleton gratté 450 g/m²",
+  "it-it": "Felpa garzata da 450 g/m²",
+  "es-es": "Felpa perchada de 450 g/m²"
+ },
+ "Double-layer hood": {
+  "fr-fr": "Capuche doublée",
+  "it-it": "Cappuccio doppio",
+  "es-es": "Capucha doble"
+ },
+ "Reinforced elbows": {
+  "fr-fr": "Coudes renforcés",
+  "it-it": "Gomiti rinforzati",
+  "es-es": "Codos reforzados"
+ },
+ "A boxy 450 gsm hoodie with reinforced elbows.": {
+  "fr-fr": "Un hoodie boxy 450 g/m² aux coudes renforcés.",
+  "it-it": "Una felpa boxy da 450 g/m² con gomiti rinforzati.",
+  "es-es": "Una sudadera boxy de 450 g/m² con codos reforzados."
+ },
+ "Mid-top canvas shoe with ankle padding.": {
+  "fr-fr": "Chaussure mid en toile avec cheville rembourrée.",
+  "it-it": "Scarpa mid in tela con caviglia imbottita.",
+  "es-es": "Zapatilla mid de lona con tobillo acolchado."
+ },
+ "Heavy-duty canvas and a padded collar for transition skaters and long rides along the IJ.": {
+  "fr-fr": "Toile épaisse et col rembourré pour les skateurs de courbe et les longues virées le long de l'IJ.",
+  "it-it": "Tela robusta e collo imbottito per chi skata in transizione e per i lunghi giri lungo l'IJ.",
+  "es-es": "Lona resistente y cuello acolchado para skaters de transición y paseos largos junto al IJ."
+ },
+ "Heavy canvas upper": {
+  "fr-fr": "Tige en toile épaisse",
+  "it-it": "Tomaia in tela pesante",
+  "es-es": "Empeine de lona gruesa"
+ },
+ "Padded ankle collar": {
+  "fr-fr": "Col de cheville rembourré",
+  "it-it": "Collo caviglia imbottito",
+  "es-es": "Cuello de tobillo acolchado"
+ },
+ "Cushioned insole": {
+  "fr-fr": "Semelle intérieure amortie",
+  "it-it": "Soletta ammortizzata",
+  "es-es": "Plantilla amortiguada"
+ },
+ "Organic cotton canvas, natural rubber outsole": {
+  "fr-fr": "Toile de coton bio, semelle en caoutchouc naturel",
+  "it-it": "Tela di cotone biologico, suola in gomma naturale",
+  "es-es": "Lona de algodón orgánico, suela de caucho natural"
+ },
+ "A mid-top canvas skate shoe with ankle padding.": {
+  "fr-fr": "Une chaussure de skate mid en toile avec cheville rembourrée.",
+  "it-it": "Una scarpa da skate mid in tela con caviglia imbottita.",
+  "es-es": "Una zapatilla de skate mid de lona con tobillo acolchado."
+ },
+ "Vulcanised low-top with a triple-stitched ollie zone.": {
+  "fr-fr": "Basse vulcanisée avec zone d'ollie triple couture.",
+  "it-it": "Bassa vulcanizzata con zona ollie a tripla cucitura.",
+  "es-es": "Baja vulcanizada con zona de ollie con triple costura."
+ },
+ "Our everyday skate shoe: grippy gum sole, suede that breaks in fast and a toe cap that survives a season of kickflips.": {
+  "fr-fr": "Notre chaussure de skate de tous les jours : semelle gomme qui accroche, daim qui se fait vite au pied et bout qui survit à une saison de kickflips.",
+  "it-it": "La nostra scarpa da skate di tutti i giorni: suola in gomma che fa grip, scamosciato che si adatta in fretta e puntale che sopravvive a una stagione di kickflip.",
+  "es-es": "Nuestra zapatilla de skate de diario: suela de goma con grip, ante que se adapta rápido y puntera que aguanta una temporada de kickflips."
+ },
+ "Vulcanised gum sole": {
+  "fr-fr": "Semelle gomme vulcanisée",
+  "it-it": "Suola in gomma vulcanizzata",
+  "es-es": "Suela de goma vulcanizada"
+ },
+ "Triple-stitched ollie zone": {
+  "fr-fr": "Zone d'ollie triple couture",
+  "it-it": "Zona ollie a tripla cucitura",
+  "es-es": "Zona de ollie con triple costura"
+ },
+ "Padded tongue": {
+  "fr-fr": "Languette rembourrée",
+  "it-it": "Linguetta imbottita",
+  "es-es": "Lengüeta acolchada"
+ },
+ "Suede upper, natural rubber outsole": {
+  "fr-fr": "Tige en daim, semelle en caoutchouc naturel",
+  "it-it": "Tomaia in scamosciato, suola in gomma naturale",
+  "es-es": "Empeine de ante, suela de caucho natural"
+ },
+ "A vulcanised suede skate shoe built to take slams.": {
+  "fr-fr": "Une chaussure de skate vulcanisée en daim, faite pour encaisser les chutes.",
+  "it-it": "Una scarpa da skate vulcanizzata in scamosciato, fatta per reggere le cadute.",
+  "es-es": "Una zapatilla de skate vulcanizada de ante, hecha para aguantar caídas."
+ },
+ "Vak Skate · Winter 26": {
+  "fr-fr": "Vak Skate · Hiver 26",
+  "it-it": "Vak Skate · Inverno 26",
+  "es-es": "Vak Skate · Invierno 26"
+ },
+ "Cold hands, warm hoodies, dry spots.": {
+  "fr-fr": "Mains froides, hoodies chauds, spots au sec.",
+  "it-it": "Mani fredde, felpe calde, spot all'asciutto.",
+  "es-es": "Manos frías, sudaderas calientes, spots secos."
+ },
+ "Heavyweight layers and fresh suede for the indoor parks and covered spots of winter.": {
+  "fr-fr": "Des couches épaisses et du daim tout neuf pour les parks indoor et les spots couverts de l'hiver.",
+  "it-it": "Strati pesanti e scamosciato nuovo per gli skatepark indoor e gli spot coperti dell'inverno.",
+  "es-es": "Capas gruesas y ante nuevo para los parks cubiertos y los spots bajo techo del invierno."
+ },
+ "Shop the drop": {
+  "fr-fr": "Voir la collection",
+  "it-it": "Scopri la collezione",
+  "es-es": "Ver la colección"
+ },
+ "Winter layers and sneakers for skaters.": {
+  "fr-fr": "Couches d'hiver et sneakers pour skateurs.",
+  "it-it": "Strati invernali e sneakers per skater.",
+  "es-es": "Capas de invierno y zapatillas para skaters."
+ },
+ "Heavyweight hoodies and fresh suede for winter sessions.": {
+  "fr-fr": "Des hoodies épais et du daim tout neuf pour les sessions d'hiver.",
+  "it-it": "Felpe pesanti e scamosciato nuovo per le session invernali.",
+  "es-es": "Sudaderas gruesas y ante nuevo para las sesiones de invierno."
+ },
+ "New colourway": {
+  "fr-fr": "Nouveau coloris",
+  "it-it": "Nuovo colore",
+  "es-es": "Nuevo color"
+ },
+ "Brug Low in Orange Flame.": {
+  "fr-fr": "La Brug Low en Orange Flame.",
+  "it-it": "La Brug Low in Orange Flame.",
+  "es-es": "La Brug Low en Orange Flame."
+ },
+ "Triple-stitched where your ollies hit.": {
+  "fr-fr": "Triple couture là où tes ollies frappent.",
+  "it-it": "Tripla cucitura dove colpiscono i tuoi ollie.",
+  "es-es": "Triple costura donde golpean tus ollies."
+ },
+ "Shop sneakers": {
+  "fr-fr": "Voir les sneakers",
+  "it-it": "Scopri le sneakers",
+  "es-es": "Ver zapatillas"
+ },
+ "Raised under Amsterdam's bridges": {
+  "fr-fr": "Grandi sous les ponts d'Amsterdam",
+  "it-it": "Cresciuti sotto i ponti di Amsterdam",
+  "es-es": "Criados bajo los puentes de Ámsterdam"
+ },
+ "Every shoe is shaped with the local crews who skate it, from Noord's car parks to the ramps of Barcelona.": {
+  "fr-fr": "Chaque chaussure est conçue avec les crews locaux qui la skatent, des parkings de Noord aux rampes de Barcelone.",
+  "it-it": "Ogni scarpa è disegnata con le crew locali che la skatano, dai parcheggi di Noord alle rampe di Barcellona.",
+  "es-es": "Cada zapatilla se diseña con las crews locales que la patinan, de los aparcamientos de Noord a las rampas de Barcelona."
+ },
+ "About Vak Skate": {
+  "fr-fr": "À propos de Vak Skate",
+  "it-it": "Chi è Vak Skate",
+  "es-es": "Sobre Vak Skate"
+ },
+ "Vak Skate – Sneakers and streetwear from Amsterdam": {
+  "fr-fr": "Vak Skate – Sneakers et streetwear d'Amsterdam",
+  "it-it": "Vak Skate – Sneakers e streetwear da Amsterdam",
+  "es-es": "Vak Skate – Zapatillas y streetwear de Ámsterdam"
+ },
+ "Skate shoes and streetwear built for the city, by The Vak Boardsports Collective.": {
+  "fr-fr": "Des chaussures de skate et du streetwear pensés pour la ville, par The Vak Boardsports Collective.",
+  "it-it": "Scarpe da skate e streetwear pensati per la città, da The Vak Boardsports Collective.",
+  "es-es": "Zapatillas de skate y streetwear pensados para la ciudad, por The Vak Boardsports Collective."
+ },
+ "Suede that survives kickflips and hoodies heavy enough for the quay in January.": {
+  "fr-fr": "Du daim qui survit aux kickflips et des hoodies assez épais pour le quai en janvier.",
+  "it-it": "Scamosciato che sopravvive ai kickflip e felpe abbastanza pesanti per il molo a gennaio.",
+  "es-es": "Ante que sobrevive a los kickflips y sudaderas lo bastante gruesas para el muelle en enero."
+ },
+ "Free shoe glue with every pair of sneakers.": {
+  "fr-fr": "Colle à chaussures offerte avec chaque paire de sneakers.",
+  "it-it": "Colla per scarpe in regalo con ogni paio di sneakers.",
+  "es-es": "Pegamento para zapatillas gratis con cada par."
+ },
+ "Shoe care guide": {
+  "fr-fr": "Guide d'entretien des chaussures",
+  "it-it": "Guida alla cura delle scarpe",
+  "es-es": "Guía de cuidado de zapatillas"
+ },
+ "Spot check": {
+  "fr-fr": "Spot check",
+  "it-it": "Spot check",
+  "es-es": "Spot check"
+ },
+ "New drops and local jams, twice a month.": {
+  "fr-fr": "Nouveautés et jams locales, deux fois par mois.",
+  "it-it": "Novità e jam locali, due volte al mese.",
+  "es-es": "Novedades y jams locales, dos veces al mes."
+ },
+ "Wide-view goggles with lenses for flat light and bluebird days.": {
+  "fr-fr": "Des masques à large champ de vision, avec des écrans pour le jour blanc et le grand beau.",
+  "it-it": "Maschere a campo visivo ampio con lenti per luce piatta e giornate di sole.",
+  "es-es": "Máscaras de visión amplia con lentes para luz plana y días de cielo azul."
+ },
+ "Shell and insulated jackets for long days in the lift queue and the backcountry.": {
+  "fr-fr": "Des vestes shell et isolées pour les longues journées entre file de remontée et hors-piste.",
+  "it-it": "Giacche shell e imbottite per le lunghe giornate tra coda agli impianti e fuoripista.",
+  "es-es": "Chaquetas shell y aislantes para días largos entre la cola del remonte y el fuera pista."
+ },
+ "Cylindrical goggle with a high-contrast flat-light lens.": {
+  "fr-fr": "Masque cylindrique avec écran contrasté pour le jour blanc.",
+  "it-it": "Maschera cilindrica con lente ad alto contrasto per luce piatta.",
+  "es-es": "Máscara cilíndrica con lente de alto contraste para luz plana."
+ },
+ "A rose-tinted lens that brings out the bumps when the cloud rolls in, with triple-layer foam and an anti-fog coating.": {
+  "fr-fr": "Un écran rosé qui fait ressortir les bosses quand les nuages arrivent, avec mousse triple couche et traitement antibuée.",
+  "it-it": "Una lente rosata che fa risaltare le gobbe quando arrivano le nuvole, con schiuma a tre strati e trattamento antiappannamento.",
+  "es-es": "Una lente rosada que resalta los baches cuando llegan las nubes, con espuma de triple capa y tratamiento antivaho."
+ },
+ "Flat-light rose lens": {
+  "fr-fr": "Écran rose jour blanc",
+  "it-it": "Lente rosa per luce piatta",
+  "es-es": "Lente rosa para luz plana"
+ },
+ "Anti-fog coating": {
+  "fr-fr": "Traitement antibuée",
+  "it-it": "Trattamento antiappannamento",
+  "es-es": "Tratamiento antivaho"
+ },
+ "Helmet-compatible strap": {
+  "fr-fr": "Sangle compatible casque",
+  "it-it": "Cinghia compatibile con il casco",
+  "es-es": "Cinta compatible con casco"
+ },
+ "Polycarbonate lens, TPU frame": {
+  "fr-fr": "Écran polycarbonate, monture TPU",
+  "it-it": "Lente in policarbonato, montatura in TPU",
+  "es-es": "Lente de policarbonato, montura de TPU"
+ },
+ "A goggle with a high-contrast lens for flat light.": {
+  "fr-fr": "Un masque avec écran contrasté pour le jour blanc.",
+  "it-it": "Una maschera con lente ad alto contrasto per luce piatta.",
+  "es-es": "Una máscara con lente de alto contraste para luz plana."
+ },
+ "Three-layer waterproof shell for touring and resort days.": {
+  "fr-fr": "Shell imperméable trois couches pour la rando et les journées en station.",
+  "it-it": "Shell impermeabile a tre strati per lo scialpinismo e le giornate in pista.",
+  "es-es": "Shell impermeable de tres capas para travesía y días en estación."
+ },
+ "A fully taped 3-layer shell with pit zips and a helmet-compatible hood. Light enough to pack, tough enough for a season of road trips.": {
+  "fr-fr": "Un shell 3 couches entièrement étanché, avec aérations sous les bras et capuche compatible casque. Assez léger pour le sac, assez solide pour une saison de road trips.",
+  "it-it": "Uno shell a 3 strati completamente nastrato, con zip di ventilazione sotto le braccia e cappuccio compatibile con il casco. Abbastanza leggero da mettere nello zaino, abbastanza robusto per una stagione di road trip.",
+  "es-es": "Un shell de 3 capas totalmente sellado, con ventilación bajo los brazos y capucha compatible con casco. Lo bastante ligero para la mochila y lo bastante duro para una temporada de road trips."
+ },
+ "20k / 20k membrane": {
+  "fr-fr": "Membrane 20k / 20k",
+  "it-it": "Membrana 20k / 20k",
+  "es-es": "Membrana 20k / 20k"
+ },
+ "Fully taped seams": {
+  "fr-fr": "Coutures entièrement étanchées",
+  "it-it": "Cuciture completamente nastrate",
+  "es-es": "Costuras totalmente selladas"
+ },
+ "Pit zips": {
+  "fr-fr": "Aérations sous les bras",
+  "it-it": "Zip di ventilazione sotto le braccia",
+  "es-es": "Ventilación bajo los brazos"
+ },
+ "Helmet-compatible hood": {
+  "fr-fr": "Capuche compatible casque",
+  "it-it": "Cappuccio compatibile con il casco",
+  "es-es": "Capucha compatible con casco"
+ },
+ "Recycled nylon face, PFC-free DWR": {
+  "fr-fr": "Face en nylon recyclé, DWR sans PFC",
+  "it-it": "Esterno in nylon riciclato, DWR senza PFC",
+  "es-es": "Exterior de nailon reciclado, DWR sin PFC"
+ },
+ "A 3-layer waterproof shell for touring and resort days.": {
+  "fr-fr": "Un shell imperméable 3 couches pour la rando et les journées en station.",
+  "it-it": "Uno shell impermeabile a 3 strati per lo scialpinismo e le giornate in pista.",
+  "es-es": "Un shell impermeable de 3 capas para travesía y días en estación."
+ },
+ "Spherical goggle with a magnetic quick-swap lens.": {
+  "fr-fr": "Masque sphérique avec écran magnétique interchangeable.",
+  "it-it": "Maschera sferica con lente magnetica a cambio rapido.",
+  "es-es": "Máscara esférica con lente magnética de cambio rápido."
+ },
+ "Wide field of view and two magnetic lenses in the box: mirrored blue for sun, clear for night sessions.": {
+  "fr-fr": "Large champ de vision et deux écrans magnétiques dans la boîte : bleu miroir pour le soleil, clair pour les sessions de nuit.",
+  "it-it": "Ampio campo visivo e due lenti magnetiche nella confezione: blu specchiata per il sole, trasparente per le session notturne.",
+  "es-es": "Amplio campo de visión y dos lentes magnéticas en la caja: azul espejo para el sol, transparente para las sesiones nocturnas."
+ },
+ "Magnetic lens swap": {
+  "fr-fr": "Changement d'écran magnétique",
+  "it-it": "Cambio lente magnetico",
+  "es-es": "Cambio de lente magnético"
+ },
+ "Two lenses included": {
+  "fr-fr": "Deux écrans inclus",
+  "it-it": "Due lenti incluse",
+  "es-es": "Dos lentes incluidas"
+ },
+ "Wide field of view": {
+  "fr-fr": "Large champ de vision",
+  "it-it": "Ampio campo visivo",
+  "es-es": "Amplio campo de visión"
+ },
+ "A spherical goggle with a magnetic quick-swap lens.": {
+  "fr-fr": "Un masque sphérique avec écran magnétique interchangeable.",
+  "it-it": "Una maschera sferica con lente magnetica a cambio rapido.",
+  "es-es": "Una máscara esférica con lente magnética de cambio rápido."
+ },
+ "Warm, low-bulk insulated jacket with a powder skirt.": {
+  "fr-fr": "Veste isolée chaude et peu encombrante, avec jupe pare-neige.",
+  "it-it": "Giacca imbottita calda e poco ingombrante, con ghetta paraneve.",
+  "es-es": "Chaqueta aislante cálida y poco voluminosa, con faldón para nieve."
+ },
+ "Synthetic insulation that stays warm when wet, a women's fit with room for layers, and a powder skirt for deep days.": {
+  "fr-fr": "Isolation synthétique qui reste chaude même mouillée, coupe femme avec de la place pour les couches, et jupe pare-neige pour les jours de poudreuse.",
+  "it-it": "Imbottitura sintetica che resta calda anche bagnata, vestibilità da donna con spazio per gli strati e ghetta paraneve per le giornate di neve fresca.",
+  "es-es": "Aislamiento sintético que sigue abrigando mojado, corte femenino con espacio para capas y faldón para los días de nieve polvo."
+ },
+ "Synthetic insulation": {
+  "fr-fr": "Isolation synthétique",
+  "it-it": "Imbottitura sintetica",
+  "es-es": "Aislamiento sintético"
+ },
+ "Powder skirt": {
+  "fr-fr": "Jupe pare-neige",
+  "it-it": "Ghetta paraneve",
+  "es-es": "Faldón para nieve"
+ },
+ "Lift-pass pocket": {
+  "fr-fr": "Poche forfait",
+  "it-it": "Tasca skipass",
+  "es-es": "Bolsillo para forfait"
+ },
+ "Recycled polyester face and insulation": {
+  "fr-fr": "Face et isolation en polyester recyclé",
+  "it-it": "Esterno e imbottitura in poliestere riciclato",
+  "es-es": "Exterior y aislamiento de poliéster reciclado"
+ },
+ "A warm, low-bulk women's ski and snowboard jacket.": {
+  "fr-fr": "Une veste de ski et de snowboard femme, chaude et peu encombrante.",
+  "it-it": "Una giacca da sci e snowboard da donna, calda e poco ingombrante.",
+  "es-es": "Una chaqueta de esquí y snowboard de mujer, cálida y poco voluminosa."
+ },
+ "Vak Snow · Winter 26": {
+  "fr-fr": "Vak Snow · Hiver 26",
+  "it-it": "Vak Snow · Inverno 26",
+  "es-es": "Vak Snow · Invierno 26"
+ },
+ "Pack the van. The Alps are calling.": {
+  "fr-fr": "Charge le van. Les Alpes t'appellent.",
+  "it-it": "Carica il van. Le Alpi ti chiamano.",
+  "es-es": "Carga la furgo. Los Alpes te llaman."
+ },
+ "Shells, insulation and flat-light goggles for your first road trip of the season.": {
+  "fr-fr": "Des shells, de l'isolation et des masques jour blanc pour ton premier road trip de la saison.",
+  "it-it": "Shell, imbottiture e maschere per luce piatta per il tuo primo road trip della stagione.",
+  "es-es": "Shells, aislamiento y máscaras para luz plana para tu primer road trip de la temporada."
+ },
+ "Gear up": {
+  "fr-fr": "Équipe-toi",
+  "it-it": "Attrezzati",
+  "es-es": "Equípate"
+ },
+ "Jackets and goggles for the first trip of the season.": {
+  "fr-fr": "Des vestes et des masques pour le premier trip de la saison.",
+  "it-it": "Giacche e maschere per il primo viaggio della stagione.",
+  "es-es": "Chaquetas y máscaras para el primer viaje de la temporada."
+ },
+ "Shells and insulation for your first road trip south.": {
+  "fr-fr": "Des shells et de l'isolation pour ton premier road trip vers le sud.",
+  "it-it": "Shell e imbottiture per il tuo primo road trip verso sud.",
+  "es-es": "Shells y aislamiento para tu primer road trip hacia el sur."
+ },
+ "Shop jackets": {
+  "fr-fr": "Voir les vestes",
+  "it-it": "Scopri le giacche",
+  "es-es": "Ver chaquetas"
+ },
+ "See the bumps": {
+  "fr-fr": "Vois les bosses",
+  "it-it": "Vedi le gobbe",
+  "es-es": "Ve los baches"
+ },
+ "Goggles made for flat light.": {
+  "fr-fr": "Des masques faits pour le jour blanc.",
+  "it-it": "Maschere fatte per la luce piatta.",
+  "es-es": "Máscaras hechas para la luz plana."
+ },
+ "High-contrast lenses for grey Alpine mornings.": {
+  "fr-fr": "Des écrans contrastés pour les matins gris dans les Alpes.",
+  "it-it": "Lenti ad alto contrasto per le mattine grigie sulle Alpi.",
+  "es-es": "Lentes de alto contraste para las mañanas grises en los Alpes."
+ },
+ "Shop goggles": {
+  "fr-fr": "Voir les masques",
+  "it-it": "Scopri le maschere",
+  "es-es": "Ver máscaras"
+ },
+ "No mountains, no problem": {
+  "fr-fr": "Pas de montagnes, pas de problème",
+  "it-it": "Niente montagne, nessun problema",
+  "es-es": "Sin montañas, sin problema"
+ },
+ "Every winter our crew packs the van in Amsterdam and drives south. Vak Snow is the gear we wish we had on those first frozen mornings.": {
+  "fr-fr": "Chaque hiver, notre crew charge le van à Amsterdam et descend vers le sud. Vak Snow, c'est le matos qu'on aurait aimé avoir lors de ces premiers matins gelés.",
+  "it-it": "Ogni inverno la nostra crew carica il van ad Amsterdam e scende a sud. Vak Snow è l'attrezzatura che avremmo voluto avere in quelle prime mattine gelate.",
+  "es-es": "Cada invierno nuestra crew carga la furgo en Ámsterdam y baja al sur. Vak Snow es el equipo que nos habría gustado tener en esas primeras mañanas heladas."
+ },
+ "About Vak Snow": {
+  "fr-fr": "À propos de Vak Snow",
+  "it-it": "Chi è Vak Snow",
+  "es-es": "Sobre Vak Snow"
+ },
+ "Vak Snow – Jackets and goggles for flat-country riders": {
+  "fr-fr": "Vak Snow – Vestes et masques pour riders du plat pays",
+  "it-it": "Vak Snow – Giacche e maschere per rider di pianura",
+  "es-es": "Vak Snow – Chaquetas y máscaras para riders de tierra llana"
+ },
+ "Snow jackets and goggles for road-trip riders, by The Vak Boardsports Collective.": {
+  "fr-fr": "Des vestes et des masques de snow pour riders en road trip, par The Vak Boardsports Collective.",
+  "it-it": "Giacche e maschere da neve per rider in road trip, da The Vak Boardsports Collective.",
+  "es-es": "Chaquetas y máscaras de nieve para riders de road trip, por The Vak Boardsports Collective."
+ },
+ "Free lens swap on every goggle this winter.": {
+  "fr-fr": "Changement d'écran offert sur tous les masques cet hiver.",
+  "it-it": "Cambio lente gratuito su ogni maschera quest'inverno.",
+  "es-es": "Cambio de lente gratis en todas las máscaras este invierno."
+ },
+ "Lens guide": {
+  "fr-fr": "Guide des écrans",
+  "it-it": "Guida alle lenti",
+  "es-es": "Guía de lentes"
+ },
+ "Snow report": {
+  "fr-fr": "Bulletin neige",
+  "it-it": "Bollettino neve",
+  "es-es": "Parte de nieve"
+ },
+ "Fresh snow, road-trip tips and new gear, every Friday in winter.": {
+  "fr-fr": "Neige fraîche, conseils road trip et nouveautés, chaque vendredi en hiver.",
+  "it-it": "Neve fresca, consigli per i road trip e novità, ogni venerdì d'inverno.",
+  "es-es": "Nieve fresca, consejos de road trip y novedades, cada viernes de invierno."
+ }
+}

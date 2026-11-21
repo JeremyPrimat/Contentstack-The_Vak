@@ -1,0 +1,17 @@
+# secrets
+.env*
+!.env.example
+.mcp.json
+
+# next / node
+node_modules/
+.next/
+.next-*/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# local tooling
+contentstack/logs/
+.claude/settings.local.json

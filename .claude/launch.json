@@ -1,0 +1,9 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "group", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev:group"], "port": 3000 },
+    { "name": "surf", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev:surf"], "port": 3001 },
+    { "name": "skate", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev:skate"], "port": 3002 },
+    { "name": "snow", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev:snow"], "port": 3003 }
+  ]
+}

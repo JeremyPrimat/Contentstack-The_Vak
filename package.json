@@ -1,0 +1,34 @@
+{
+  "name": "the-vak-site-factory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "One Next.js codebase that renders The Vak group site and its three brand sites, each from its own Contentstack stack.",
+  "scripts": {
+    "dev": "next dev",
+    "dev:group": "SITE=group NEXT_DIST_DIR=.next-group next dev -p 3000",
+    "dev:surf": "SITE=surf NEXT_DIST_DIR=.next-surf next dev -p 3001",
+    "dev:skate": "SITE=skate NEXT_DIST_DIR=.next-skate next dev -p 3002",
+    "dev:snow": "SITE=snow NEXT_DIST_DIR=.next-snow next dev -p 3003",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@contentstack/delivery-sdk": "5.6.2",
+    "@contentstack/live-preview-utils": "4.6.1",
+    "@contentstack/personalize-edge-sdk": "1.0.28",
+    "@contentstack/utils": "1.9.1",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}
