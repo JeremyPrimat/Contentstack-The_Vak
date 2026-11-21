@@ -6,7 +6,7 @@ import type { Asset, Cta, Product } from "@/lib/types";
 
 /** Internal links get the locale prefix; cross-site placeholder links get the real site URL. */
 export function SmartLink({ href, lang, className, children, cslp }: { href?: string; lang: Lang; className?: string; children: ReactNode; cslp?: Record<string, string> }) {
-  const resolved = resolveSiteHref(href);
+  const resolved = resolveSiteHref(href, lang);
   const internal = resolved.startsWith("/") && !resolved.startsWith("//");
   if (internal) {
     return (

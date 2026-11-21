@@ -118,14 +118,14 @@ function CategoryTiles({ data, lang }: Props<"category_tiles">) {
   );
 }
 
-function BrandGrid({ data }: Props<"brand_grid">) {
+function BrandGrid({ data, lang }: Props<"brand_grid">) {
   return (
     <section className="section container" id="brands">
       {data.heading ? <h2 {...data.$?.heading}>{data.heading}</h2> : null}
       {data.intro ? <p className="lede narrow" {...data.$?.intro}>{data.intro}</p> : null}
       <div className="grid grid-3">
         {(data.brands ?? []).map((b) => (
-          <a key={b.uid} href={resolveSiteHref(b.site_url)} className="brand-card" style={{ ["--brand" as string]: b.accent_color }}>
+          <a key={b.uid} href={resolveSiteHref(b.site_url, lang)} className="brand-card" style={{ ["--brand" as string]: b.accent_color }}>
             <span className="brand-chip" />
             <h3 {...b.$?.title}>{b.title}</h3>
             {b.tagline ? <p {...b.$?.tagline}>{b.tagline}</p> : null}

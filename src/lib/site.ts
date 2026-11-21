@@ -97,16 +97,19 @@ const PLACEHOLDER_HOSTS: Record<string, SiteId> = {
 /**
  * Content stores cross-site links with stable placeholder domains (*.thevak.example)
  * so editors never paste environment-specific URLs. Each deployment maps them to
- * the real site URLs it knows about.
+ * the real site URLs it knows about. With a language, the link keeps it
+ * (a French visitor of the group site lands on the French brand site).
  */
-export function resolveSiteHref(href: string | undefined): string {
+export function resolveSiteHref(href: string | undefined, lang?: string): string {
   if (!href) return "#";
   try {
     const url = new URL(href);
     const target = PLACEHOLDER_HOSTS[url.host];
     const base = target ? PUBLIC_URLS[target] : undefined;
-    if (target && base) return base.replace(/\/$/, "") + url.pathname.replace(/^\/$/, "") + url.search + url.hash;
-    return href;
+    if (!target || !base) return href;
+    const path = url.pathname.replace(/^\/$/, "");
+    const prefix = lang && lang !== "en" ? `/${lang}` : "";
+    return base.replace(/\/$/, "") + prefix + path + url.search + url.hash;
   } catch {
     return href; // relative link
   }
