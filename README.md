@@ -4,7 +4,7 @@ Original demo site for a fictional boardsports group born in Amsterdam, built on
 
 All copy is original. Images are royalty-free (Unsplash / Pexels) or generic placeholders. Nothing is taken from a real brand.
 
-> Status: **Step 4 done** — Personalize on the group site, Brand Kit (4 voice profiles + Knowledge Vault) and an AI translation (Polaris) of a Vak Surf guide approved through the Review workflow before publishing. Next: Step 5 (Launch).
+> Status: **Live on Launch** — [The Vak](https://the-vak.contentstackapps.com) · [Vak Surf](https://vak-surf.contentstackapps.com) · [Vak Skate](https://vak-skate.contentstackapps.com) · [Vak Snow](https://vak-snow.contentstackapps.com), in en/fr/it/es, with Personalize on the group site (try `?affinity=snow`), Live Preview / Visual Builder, Brand Kit and an AI translation (Polaris) approved through the Review workflow.
 
 ## Architecture
 
@@ -102,16 +102,16 @@ Each dev server uses its own build folder (`.next-<site>`), so all four can run 
 
 Same repo, four Launch projects (one per site), each built with its own environment variables.
 
-| Project | `SITE` | Stack |
-|---|---|---|
-| the-vak | `group` | The Vak (+ Personalize) |
-| vak-surf | `surf` | Vak Surf |
-| vak-skate | `skate` | Vak Skate |
-| vak-snow | `snow` | Vak Snow |
+| Project | `SITE` | Stack | URL |
+|---|---|---|---|
+| the-vak | `group` | The Vak (+ Personalize) | https://the-vak.contentstackapps.com |
+| vak-surf | `surf` | Vak Surf | https://vak-surf.contentstackapps.com |
+| vak-skate | `skate` | Vak Skate | https://vak-skate.contentstackapps.com |
+| vak-snow | `snow` | Vak Snow | https://vak-snow.contentstackapps.com |
 
 - Framework preset **Next.js**, build `npm run build`, output `.next`, Node 22.
 - `node scripts/launch-env.cjs` writes `.env.launch.<site>` (git-ignored) to paste with *Add in bulk*. Once the four URLs are known: `node scripts/launch-env.cjs group=https://… surf=https://… skate=https://… snow=https://…`, update the variables and redeploy (`NEXT_PUBLIC_*` are inlined at build time).
-- Each stack's `development` environment URL and Live Preview base URL point to its Launch domain.
+- Each stack's `development` environment has one base URL per locale on its Launch domain (`/fr`, `/it`, `/es`), used by Live Preview / Visual Builder.
 - On publish, a webhook / automation calls Launch's *Revalidate CDN cache* so editors don't wait for the 60 s ISR window.
 
 ## Security
