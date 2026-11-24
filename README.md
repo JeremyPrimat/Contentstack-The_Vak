@@ -2,7 +2,7 @@
 
 Original demo site for a fictional boardsports group born in Amsterdam, built on a Contentstack trial for a Partner Engineer (EMEA) interview panel. Three house brands: **Vak Surf** (wetsuits, boardshorts), **Vak Skate** (sneakers, streetwear) and **Vak Snow** (jackets, goggles). Markets: Netherlands, France, Italy, Spain.
 
-All copy is original. Images are royalty-free (Unsplash / Pexels) or generic placeholders. Nothing is taken from a real brand.
+All copy is original. Images are royalty-free Unsplash photos, plus Boardriders Europe photos (Quiksilver, Roxy, Billabong, DC, Element) used with permission for this demo only. Sources in `assets/photos/CREDITS.md`.
 
 > Status: **Live on Launch** — [The Vak](https://the-vak.contentstackapps.com) · [Vak Surf](https://vak-surf.contentstackapps.com) · [Vak Skate](https://vak-skate.contentstackapps.com) · [Vak Snow](https://vak-snow.contentstackapps.com), in en/fr/it/es, with Personalize on the group site (try `?affinity=snow`), Live Preview / Visual Builder, Brand Kit and an AI translation (Polaris) approved through the Review workflow.
 
@@ -62,7 +62,7 @@ src/proxy.ts             locale prefixes + routing of Live Preview requests
 - **Cross-site links** are stored in content as `https://surf.thevak.example/...` and mapped to each environment's real URLs (`NEXT_PUBLIC_*_URL`), so editors never paste environment-specific links.
 - **Caching**: public pages use ISR (`revalidate = 60`) → `Cache-Control: s-maxage=60, stale-while-revalidate`. Requests with `?live_preview=` are rewritten by the proxy to `/preview/...`, a dynamic route served with `no-store` that reads the Preview API. An expired preview hash falls back to published content.
 - **Visual Builder**: edit tags are added in the data layer (`addEditableTags`) only for preview requests; the Live Preview SDK only starts inside the CMS iframe.
-- **Images**: Unsplash photos (credits in `assets/photos/CREDITS.md`) uploaded and linked by `scripts/upload-photos.cjs`; SVGs are served as-is, raster images through the Image Delivery API (`width`, `auto=webp`).
+- **Images**: Unsplash and Boardriders Europe photos (credits in `assets/photos/CREDITS.md`) uploaded and linked by `scripts/upload-photos.cjs`; SVGs are served as-is, raster images through the Image Delivery API (`width`, `auto=webp`).
 
 ### Personalize (group site)
 

@@ -57,7 +57,7 @@ module.exports = [
     ["SKATE", "/products/werf-work-pant", [["product-vk-st-002-1"], ["product-vk-st-002-2"]]],
     ["SKATE", "/products/pier-heavyweight-tee", [["product-vk-st-003-1", "product-vk-st-003-2"]]],
     ["SNOW", "/products/polder-3l-shell-jacket", [["product-vn-jk-001-1", "product-vn-jk-001-2"]]],
-    ["SNOW", "/products/ijs-womens-insulated-jacket", [["product-vn-jk-002-1"]]],
+    ["SNOW", "/products/ijs-womens-insulated-jacket", [["product-vn-jk-002-1", "product-vn-jk-002-2"], ["product-vn-jk-002-3", "product-vn-jk-002-4"], ["product-vn-jk-002-5"]]],
     ["SNOW", "/products/mist-cylindrical-goggle", [["product-vn-gg-001-1"], ["product-vn-gg-001-2"]]],
     ["SNOW", "/products/helder-spherical-goggle", [["product-vn-gg-002-1"]]],
   ].flatMap(([site, url, perColourway]) =>

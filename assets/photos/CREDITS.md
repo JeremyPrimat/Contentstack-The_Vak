@@ -44,4 +44,30 @@ Some product photos show models whose design is recognisable (e.g. high-top canv
 | `surf-campaign.jpg` | https://images.unsplash.com/photo-1644978616736-fd759a9f71da |
 | `surf-hero-2.jpg` | https://images.unsplash.com/photo-1712167959868-da60888028c1 |
 | `the-vak-campaign.jpg` | https://images.unsplash.com/photo-1769543921963-3322aa8839a5 |
-| `the-vak-hero.jpg` | https://images.unsplash.com/photo-1565049732735-d05b3d5ff7e3 |
+
+## Boardriders Europe (Quiksilver, Roxy, Billabong, DC Shoes, Element)
+
+Use approved for this interview demo (internal, non-commercial). Taken from the brands' European storefronts (quiksilver.fr, roxy.fr, billabong.fr, dcshoes.fr, elementbrand.fr) on 2026-11-24. Copyright stays with Boardriders and the photographers; remove before any public or commercial use. Some photos show well-known riders.
+
+| File | Brand | Source image |
+|---|---|---|
+| `the-vak-hero.jpg` | Billabong | https://cdn.napali.app/static/BRD/default/category-assets/experiences/builder_overlay/img/builder_p-1791281556-17/bbm-tiles-263-surf-launch-2.jpg |
+| `the-vak-story.jpg` | Billabong | https://cdn.napali.app/static/BB/default/category-assets/experiences/2022/carousel_templates/dual/img/2023/eu/eu-dual-gender-bbm-263-desk.jpg |
+| `the-vak-repair.jpg` | Element | https://cdn.napali.app/static/EL/default/category-assets/experiences/2019/ups/2ups/type2/img/2ups/Europe/263/Elt-263-holiday-gift-guide-2up-desktop-1.jpg |
+| `surf-hero-1.jpg` | Quiksilver | https://cdn.napali.app/static/QS/default/category-assets/experiences/2021/qs21_wetsuits_guide/img/banner/background_desktop.jpg |
+| `surf-story.jpg` | Billabong | https://cdn.napali.app/static/BB/default/category-assets/experiences/2022/carousel_templates/dual/img/2023/eu/eu-dual-gender-bbw-263-desk.jpg |
+| `surf-guide.jpg` | Billabong | https://cdn.napali.app/static/BB/default/category-assets/experiences/recurring/plp_headers/header_filters/img/backgrounds/seasonal/bbm-header-263-surf-absoluteultra.jpg |
+| `tile-surf.jpg` | Roxy | https://cdn.napali.app/static/RX/default/category-assets/experiences/recurring/ups/4ups/4u_titles_below/img/backgrounds/eu/263/4up-products-desktop-wetsuits-seo-263.jpg |
+| `skate-hero-1.jpg` | DC Shoes | https://cdn.napali.app/static/DC/default/category-assets/experiences/recurring/ups/4ups/4u_titles_below/img/backgrounds/emea/263/dc_seo_263_tops.jpg |
+| `skate-story.jpg` | Element | https://cdn.napali.app/static/EL/default/category-assets/experiences/2019/ups/4ups/type2/img/4ups/europe/233/ELT_SEO_4UP_COMPLETES_DESKTOP.jpg |
+| `skate-guide.jpg` | DC Shoes | https://cdn.napali.app/static/DC/default/category-assets/experiences/recurring/ups/4ups/4u_titles_below/img/backgrounds/emea/263/dc_seo_263_shoes.jpg |
+| `tile-skate.jpg` | Element | https://cdn.napali.app/static/EL/default/category-assets/experiences/2019/ups/5ups/type1/img/5ups/europe/2026/ELT_263_5ups_November_desk-2.jpg |
+| `snow-hero-1.jpg` | DC Shoes | https://cdn.napali.app/static/BRD/default/category-assets/experiences/builder_overlay/img/builder_p-1791899539-82/dc-263-tile-single-trackstar-snow11.jpg |
+| `snow-story.jpg` | Roxy | https://cdn.napali.app/static/RX/default/category-assets/experiences/recurring/ups/3ups/3u_editorial/img/backgrounds/eu/263/resort-3ups-edito-01.jpg |
+| `snow-guide.jpg` | Quiksilver | https://cdn.napali.app/static/QS/default/category-assets/experiences/2022/ups_v2/3ups/3u_titles_on_featured/img/backgrounds/europe/new-format/263-BLOC-SEO-MEN-SNOW-PANTS.jpg |
+| `tile-snow.jpg` | Roxy | https://cdn.napali.app/static/RX/default/category-assets/experiences/recurring/ups/4ups/4u_titles_below/img/backgrounds/eu/263/4up-products-desktop-winterjacket-seo-263.jpg |
+| `product-vn-jk-002-1.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03506_roxy,l_pnb0_frt1.jpg |
+| `product-vn-jk-002-2.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03506_roxy,w_pnb0_frt1.jpg |
+| `product-vn-jk-002-3.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03532_roxy,l_mda0_frt1.jpg |
+| `product-vn-jk-002-4.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03532_roxy,w_mda0_frt1.jpg |
+| `product-vn-jk-002-5.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03506_roxy,l_gqm0_frt1.jpg |

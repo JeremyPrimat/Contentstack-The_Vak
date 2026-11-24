@@ -17,7 +17,8 @@ const ROOT = path.join(__dirname, "..");
 const PHOTOS = path.join(ROOT, "assets/photos");
 const ENV_FILE = path.join(ROOT, ".env.local");
 const ENVIRONMENT = "development";
-const LOCALES = { GROUP: ["en-us", "fr-fr", "it-it", "es-es"], SURF: ["en-us"], SKATE: ["en-us"], SNOW: ["en-us"] };
+const ALL_LOCALES = ["en-us", "fr-fr", "it-it", "es-es"];
+const LOCALES = { GROUP: ALL_LOCALES, SURF: ALL_LOCALES, SKATE: ALL_LOCALES, SNOW: ALL_LOCALES };
 const FOLDER = "Photos";
 const EXT = [".jpg", ".jpeg", ".png", ".webp", ".svg"];
 const LOGOS = path.join(ROOT, "assets/logo");
@@ -69,7 +70,7 @@ async function main() {
   await authenticationHandler.getAuthDetails();
   const client = await managementSDKClient({ host: "api.contentstack.io" });
   const sites = [...new Set(MAP.map((t) => t.site))];
-  const summary = { linked: 0, missingPhoto: [], badTarget: [] };
+  const summary = { linked: 0, missingPhoto: [], badTarget: [], notPublished: [] };
 
   for (const site of sites) {
     const stack = client.stack({ api_key: apiKey(site) });
@@ -122,6 +123,7 @@ async function main() {
       }
       const [parent, field] = slot;
       parent[field] = t.multi ? photos.map((p) => assets.get(p.name)) : assets.get(photo.name);
+      (entry.__writes ??= []).push([t.path, parent[field]]);
       entry.__dirty = true;
       summary.linked++;
     }
@@ -129,17 +131,29 @@ async function main() {
     if (!DRY) {
       for (const [key, entry] of entries) {
         if (!entry?.__dirty) continue;
+        const writes = entry.__writes;
         delete entry.__dirty;
+        delete entry.__writes;
         await entry.update({ locale: "en-us" });
         const ct = key.split("|")[0];
-        await stack.contentType(ct).entry(entry.uid).publish({ publishDetails: { environments: [ENVIRONMENT], locales: LOCALES[site] }, locale: "en-us" });
-        console.log(`${site}: updated + published ${ct} ${entry.url}`);
+        const localized = await syncLocalized(stack, ct, entry, writes, LOCALES[site]);
+        try {
+          await stack.contentType(ct).entry(entry.uid).publish({ publishDetails: { environments: [ENVIRONMENT], locales: LOCALES[site] }, locale: "en-us" });
+          // Publishing from en-us does not republish localized versions: each publishes from its own locale.
+          for (const loc of localized)
+            await stack.contentType(ct).entry(entry.uid).publish({ publishDetails: { environments: [ENVIRONMENT], locales: [loc] }, locale: loc });
+          console.log(`${site}: updated + published ${ct} ${entry.url}`);
+        } catch (e) {
+          // e.g. a publish rule waiting on a workflow approval: the entry is saved, a reviewer publishes it.
+          summary.notPublished.push(`${site} ${ct} ${entry.url}: ${e.errorMessage || e.message}`);
+        }
       }
     }
   }
 
   console.log(`\n${DRY ? "[dry run] " : ""}linked: ${summary.linked}`);
   if (summary.badTarget.length) console.log(`\nTargets not found:\n  ${summary.badTarget.join("\n  ")}`);
+  if (summary.notPublished.length) console.log(`\nSaved but not published (${summary.notPublished.length}):\n  ${summary.notPublished.join("\n  ")}`);
   if (summary.missingPhoto.length) console.log(`\nNo photo yet (${summary.missingPhoto.length}):\n  ${summary.missingPhoto.join("\n  ")}`);
 }
 
@@ -154,3 +168,23 @@ main().catch((e) => {
   console.error("ERROR", e.errorMessage || e.message, JSON.stringify(e.errors || ""));
   process.exit(1);
 });
+
+// Localized versions keep their own copy of every field, images included, so the
+// same photos are written to each fr/it/es version that exists before publishing.
+// Product colourways are non-localizable: the whole list is copied from en-us.
+async function syncLocalized(stack, ct, master, writes, locales) {
+  const localized = [];
+  for (const loc of locales.filter((l) => l !== "en-us")) {
+    const loc_entry = await stack.contentType(ct).entry(master.uid).fetch({ locale: loc });
+    if (loc_entry.locale !== loc) continue; // not localized: it falls back to en-us anyway
+    if (ct === "product") loc_entry.colourways = JSON.parse(JSON.stringify(master.colourways));
+    else
+      for (const [p, value] of writes) {
+        const slot = resolvePath(loc_entry, p);
+        if (slot) slot[0][slot[1]] = value;
+      }
+    await loc_entry.update({ locale: loc });
+    localized.push(loc);
+  }
+  return localized;
+}
