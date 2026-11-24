@@ -71,3 +71,5 @@ Use approved for this interview demo (internal, non-commercial). Taken from the 
 | `product-vn-jk-002-3.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03532_roxy,l_mda0_frt1.jpg |
 | `product-vn-jk-002-4.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03532_roxy,w_mda0_frt1.jpg |
 | `product-vn-jk-002-5.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03506_roxy,l_gqm0_frt1.jpg |
+| `product-vn-gg-002-1.jpg` | Quiksilver | https://images.napali.app/global/quiksilver-products/all/default/hi-res/eqygl03043_quiksilver,p_gqp0_frt1.jpg |
+| `product-vn-gg-002-2.jpg` | Quiksilver | https://images.napali.app/global/quiksilver-products/all/default/hi-res/eqygl03043_quiksilver,p_kvj0_frt1.jpg |

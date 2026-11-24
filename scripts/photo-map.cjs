@@ -59,7 +59,7 @@ module.exports = [
     ["SNOW", "/products/polder-3l-shell-jacket", [["product-vn-jk-001-1", "product-vn-jk-001-2"]]],
     ["SNOW", "/products/ijs-womens-insulated-jacket", [["product-vn-jk-002-1", "product-vn-jk-002-2"], ["product-vn-jk-002-3", "product-vn-jk-002-4"], ["product-vn-jk-002-5"]]],
     ["SNOW", "/products/mist-cylindrical-goggle", [["product-vn-gg-001-1"], ["product-vn-gg-001-2"]]],
-    ["SNOW", "/products/helder-spherical-goggle", [["product-vn-gg-002-1"]]],
+    ["SNOW", "/products/helder-spherical-goggle", [["product-vn-gg-002-1"], ["product-vn-gg-002-2"]]],
   ].flatMap(([site, url, perColourway]) =>
     perColourway.map((files, i) => ({ site, ct: "product", url, path: `colourways[${i}].images`, multi: true, priority: 1, files })),
   ),

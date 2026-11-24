@@ -23,6 +23,8 @@ const FOLDER = "Photos";
 const EXT = [".jpg", ".jpeg", ".png", ".webp", ".svg"];
 const LOGOS = path.join(ROOT, "assets/logo");
 const DRY = process.argv.includes("--dry-run");
+// --only <url>: process only the entries whose URL contains this text.
+const ONLY = process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : null;
 
 const apiKey = (site) => {
   const m = fs.readFileSync(ENV_FILE, "utf8").match(new RegExp(`^VAK_${site}_API_KEY=(.+)$`, "m"));
@@ -74,7 +76,7 @@ async function main() {
 
   for (const site of sites) {
     const stack = client.stack({ api_key: apiKey(site) });
-    const targets = MAP.filter((t) => t.site === site);
+    const targets = MAP.filter((t) => t.site === site && (!ONLY || (t.url || "").includes(ONLY)));
     const entries = new Map(); // key ct|url → entry
     const assets = new Map(); // photo name → asset uid
     let folderUid;
