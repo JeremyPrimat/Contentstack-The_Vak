@@ -62,6 +62,7 @@ src/proxy.ts             locale prefixes + routing of Live Preview requests
 - **Cross-site links** are stored in content as `https://surf.thevak.example/...` and mapped to each environment's real URLs (`NEXT_PUBLIC_*_URL`), so editors never paste environment-specific links.
 - **Caching**: public pages use ISR (`revalidate = 60`) → `Cache-Control: s-maxage=60, stale-while-revalidate`. Requests with `?live_preview=` are rewritten by the proxy to `/preview/...`, a dynamic route served with `no-store` that reads the Preview API. An expired preview hash falls back to published content.
 - **Visual Builder**: edit tags are added in the data layer (`addEditableTags`) only for preview requests; the Live Preview SDK only starts inside the CMS iframe.
+- **Block previews**: each of the 8 Page blocks has a preview image (a screenshot of the live block, `assets/block-previews/`) and a category (Heroes and campaigns / Products and categories / Brand and stores), so editors add blocks from a visual menu in the entry editor and Visual Builder. `scripts/shoot-block-previews.cjs` takes the screenshots with Playwright; `scripts/block-previews.cjs` uploads them and sets `preview_img` and `categories` in all four stacks.
 - **Images**: Unsplash and Boardriders Europe photos (credits in `assets/photos/CREDITS.md`) uploaded and linked by `scripts/upload-photos.cjs`; SVGs are served as-is, raster images through the Image Delivery API (`width`, `auto=webp`).
 
 ### Personalize (group site)
