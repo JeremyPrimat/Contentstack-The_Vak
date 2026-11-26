@@ -114,7 +114,7 @@ export function cms(lang: Lang, preview?: PreviewParams | null, variantAliases: 
   return {
     isPreview: ctx.editable,
     page: (url: string) => findOne<Page>(ctx, "page", "url", url, PAGE_REFS, true),
-    header: async () => (await findMany<Header>(ctx, "header"))[0],
+    header: async () => (await findMany<Header>(ctx, "header", [], undefined, true))[0],
     footer: async () => (await findMany<Footer>(ctx, "footer"))[0],
     brands: () => findMany<Brand>(ctx, "brand"),
     brandByUrl: (url: string) => findOne<Brand>(ctx, "brand", "url", url),

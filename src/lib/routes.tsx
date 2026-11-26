@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import { LivePreview } from "@/components/LivePreview";
+import { AffinityTracker } from "@/components/AffinityTracker";
 import { PersonalizeImpressions } from "@/components/PersonalizeImpressions";
 import { Sections } from "@/components/sections/Sections";
 import { SiteShell } from "@/components/SiteShell";
@@ -103,10 +104,13 @@ const resolve = cache((lang: Lang, slug: string[], previewKey: string, variant =
   withPreviewFallback(previewKey, (preview) => resolveWith(lang, slug, preview, variant)),
 );
 
-const loadChrome = cache((lang: Lang, previewKey: string) => withPreviewFallback(previewKey, (preview) => loadChromeWith(lang, preview)));
+// The header is personalized too (announcement by country), so the chrome depends on the variant.
+const loadChrome = cache((lang: Lang, previewKey: string, variant = "") =>
+  withPreviewFallback(previewKey, (preview) => loadChromeWith(lang, preview, variant)),
+);
 
-async function loadChromeWith(lang: Lang, preview: PreviewParams | null) {
-  const api = cms(lang, preview);
+async function loadChromeWith(lang: Lang, preview: PreviewParams | null, variant = "") {
+  const api = cms(lang, preview, variantParamToAliases(variant));
   const site = getSite();
   const [header, footer, brands] = await Promise.all([api.header(), api.footer(), site.isGroup ? Promise.resolve([]) : api.brands()]);
   return { header, footer, siteBrand: brands[0] };
@@ -154,13 +158,14 @@ const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 export async function RouteView({ lang, slug, preview, variant = "" }: { lang: Lang; slug: string[]; preview?: PreviewParams | null; variant?: string }) {
   const key = previewKeyOf(preview);
-  const [r, chrome] = await Promise.all([resolve(lang, slug, key, variant), loadChrome(lang, key)]);
+  const [r, chrome] = await Promise.all([resolve(lang, slug, key, variant), loadChrome(lang, key, variant)]);
   if (!r) notFound();
   const lp = livePreviewSettings();
   const themeBrand = (r.kind === "page" ? r.page.theme_brand?.[0] : undefined) ?? chrome.siteBrand;
   return (
     <SiteShell lang={lang} path={"/" + slug.join("/")} header={chrome.header} footer={chrome.footer} brand={themeBrand}>
       {lp.enabled ? <LivePreview apiKey={lp.apiKey} environment={lp.environment} appHost={lp.appHost} /> : null}
+      {getSite().isGroup && personalizeProjectUid() ? <AffinityTracker projectUid={personalizeProjectUid()!} /> : null}
       {variant && personalizeProjectUid() ? (
         <PersonalizeImpressions projectUid={personalizeProjectUid()!} aliases={variantParamToAliases(variant)} />
       ) : null}

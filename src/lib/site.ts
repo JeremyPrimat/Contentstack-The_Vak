@@ -109,6 +109,10 @@ export function resolveSiteHref(href: string | undefined, lang?: string): string
     if (!target || !base) return href;
     const path = url.pathname.replace(/^\/$/, "");
     const prefix = lang && lang !== "en" ? `/${lang}` : "";
+    // Behavioral personalization: a visitor coming back to the group site from a brand site
+    // carries that brand's universe, so the group home leads with it.
+    const current = process.env.SITE;
+    if (target === "group" && (current === "surf" || current === "skate" || current === "snow")) url.searchParams.set("affinity", current);
     return base.replace(/\/$/, "") + prefix + path + url.search + url.hash;
   } catch {
     return href; // relative link
