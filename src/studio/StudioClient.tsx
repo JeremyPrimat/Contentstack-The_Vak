@@ -28,7 +28,9 @@ function start(cfg: StudioConfig) {
     environment: cfg.environment,
     live_preview: { enable: Boolean(cfg.previewToken), preview_token: cfg.previewToken, host: cfg.previewHost },
   });
-  ContentstackLivePreview.init({
+  // Live Preview (and its "Start Editing" button) only inside the CMS / Studio iframe.
+  const inCms = typeof window !== "undefined" && window.self !== window.top;
+  if (inCms) ContentstackLivePreview.init({
     ssr: false,
     enable: Boolean(cfg.previewToken),
     mode: "builder",
@@ -37,8 +39,6 @@ function start(cfg: StudioConfig) {
     clientUrlParams: { host: cfg.appHost },
     editButton: { enable: false },
   });
-  // "Start editing" only inside the CMS iframe, never for public visitors.
-  const inCms = typeof window !== "undefined" && window.self !== window.top;
   studioSdk.init({ stackSdk: stack, locale: cfg.locale, openInStudioButton: { enable: inCms } });
 }
 
