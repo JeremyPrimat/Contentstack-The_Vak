@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import type { Lang } from "@/lib/i18n";
 import "@/app/globals.css";
+import { LyticsTag } from "@/components/LyticsTag";
+import { lyticsAccountId } from "@/lib/site";
 
 export function RootHtml({ lang, children }: { lang: Lang; children: ReactNode }) {
   return (
@@ -11,7 +13,10 @@ export function RootHtml({ lang, children }: { lang: Lang; children: ReactNode }
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        {lyticsAccountId() ? <LyticsTag accountId={lyticsAccountId()!} /> : null}
+      </body>
     </html>
   );
 }

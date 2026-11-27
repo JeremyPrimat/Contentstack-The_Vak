@@ -124,3 +124,9 @@ export function personalizeProjectUid(): string | undefined {
   const site = (process.env.SITE ?? "group").toUpperCase();
   return process.env.CONTENTSTACK_PERSONALIZE_PROJECT_UID || process.env[`VAK_${site}_PERSONALIZE_PROJECT_UID`] || undefined;
 }
+
+/** Lytics CDP account (public tag id). One Lytics project "The Vak" tracks all four sites. Empty string disables the tag. */
+export function lyticsAccountId(): string | undefined {
+  const v = process.env.NEXT_PUBLIC_LYTICS_ACCOUNT_ID ?? "7e2d860299ffde9a0fd144fa604deaec";
+  return v || undefined;
+}
