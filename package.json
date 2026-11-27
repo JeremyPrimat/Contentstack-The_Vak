@@ -20,6 +20,7 @@
     "@contentstack/delivery-sdk": "5.6.2",
     "@contentstack/live-preview-utils": "4.6.1",
     "@contentstack/personalize-edge-sdk": "1.0.28",
+    "@contentstack/studio-react": "2.0.1",
     "@contentstack/utils": "1.9.1",
     "next": "16.4.6",
     "react": "19.3.1",

@@ -31,6 +31,20 @@ function host(region: string, service: "preview" | "application"): string {
   return String(getContentstackEndpoint(region, service, true));
 }
 
+/** Browser-side config for Contentstack Studio pages (delivery + preview tokens are read-only). */
+export function studioConfig(lang: Lang) {
+  const { stack } = getSite();
+  return {
+    apiKey: stack.apiKey,
+    deliveryToken: stack.deliveryToken,
+    previewToken: stack.previewToken,
+    environment: stack.environment,
+    previewHost: host(stack.region, "preview"),
+    appHost: host(stack.region, "application"),
+    locale: LOCALE_BY_LANG[lang],
+  };
+}
+
 export function livePreviewSettings() {
   const { stack } = getSite();
   return {

@@ -26,7 +26,9 @@ export async function proxy(request: NextRequest) {
     target.pathname = "/" + rest.join("/");
     return NextResponse.redirect(target, 308);
   }
-  if (first === "preview" || first === "__v") return new NextResponse(null, { status: 404 });
+  if (first === "preview" || first === "__v" || first === "studio") return new NextResponse(null, { status: 404 });
+  // Contentstack Studio's editor iframe (Canvas URL): served as is.
+  if (first === "studio-canvas") return NextResponse.next();
 
   const lang = first && PREFIXED.has(first) ? first : "en";
   const remainder = first && PREFIXED.has(first) ? rest : [first, ...rest].filter(Boolean);
@@ -34,6 +36,11 @@ export async function proxy(request: NextRequest) {
   const path = remainder.length ? "/" + remainder.join("/") : "";
 
   const target = url.clone();
+  // Landing pages composed in Contentstack Studio live under /lp/....
+  if (remainder[0] === "lp") {
+    target.pathname = `/studio/${lang}${path}`;
+    return NextResponse.rewrite(target);
+  }
   if (isPreview || !PERSONALIZE_PROJECT_UID) {
     target.pathname = `${isPreview ? "/preview" : ""}/${lang}${path}`;
     return NextResponse.rewrite(target);
