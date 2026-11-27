@@ -36,13 +36,11 @@ export async function proxy(request: NextRequest) {
   const path = remainder.length ? "/" + remainder.join("/") : "";
 
   const target = url.clone();
-  // Landing pages composed in Contentstack Studio live under /lp/....
-  if (remainder[0] === "lp") {
-    target.pathname = `/studio/${lang}${path}`;
-    return NextResponse.rewrite(target);
-  }
+  // Landing pages composed in Contentstack Studio live under /lp/... (dynamic route, variant passed as ?__v=).
+  const isStudio = remainder[0] === "lp";
+  const plainPath = isStudio ? `/studio/${lang}${path}` : `${isPreview ? "/preview" : ""}/${lang}${path}`;
   if (isPreview || !PERSONALIZE_PROJECT_UID) {
-    target.pathname = `${isPreview ? "/preview" : ""}/${lang}${path}`;
+    target.pathname = plainPath;
     return NextResponse.rewrite(target);
   }
 
@@ -52,14 +50,19 @@ export async function proxy(request: NextRequest) {
     const sdk = await Personalize.init(PERSONALIZE_PROJECT_UID, { request, liveAttributes });
     if (liveAttributes) await sdk.set(liveAttributes); // remember it for the next visits
     const variantParam = sdk.getVariantParam();
-    target.pathname = variantParam ? `/${lang}/__v/${encodeURIComponent(variantParam)}${path}` : `/${lang}${path}`;
+    if (isStudio) {
+      target.pathname = plainPath;
+      if (variantParam) target.searchParams.set("__v", variantParam);
+    } else {
+      target.pathname = variantParam ? `/${lang}/__v/${encodeURIComponent(variantParam)}${path}` : plainPath;
+    }
     const response = NextResponse.rewrite(target);
     sdk.addStateToResponse(response); // user id + manifest cookies
     return response;
   } catch (error) {
     // Personalize must never take the site down: serve the default content.
     console.warn("[personalize] init failed, serving default content:", (error as Error).message);
-    target.pathname = `/${lang}${path}`;
+    target.pathname = plainPath;
     return NextResponse.rewrite(target);
   }
 }
