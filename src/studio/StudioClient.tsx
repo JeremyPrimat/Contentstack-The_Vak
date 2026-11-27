@@ -37,7 +37,9 @@ function start(cfg: StudioConfig) {
     clientUrlParams: { host: cfg.appHost },
     editButton: { enable: false },
   });
-  studioSdk.init({ stackSdk: stack, locale: cfg.locale });
+  // "Start editing" only inside the CMS iframe, never for public visitors.
+  const inCms = typeof window !== "undefined" && window.self !== window.top;
+  studioSdk.init({ stackSdk: stack, locale: cfg.locale, openInStudioButton: { enable: inCms } });
 }
 
 /** A Studio landing page, found by its URL (e.g. /lp/first-snow). */
