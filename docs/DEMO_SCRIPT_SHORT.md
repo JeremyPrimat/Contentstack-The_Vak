@@ -12,11 +12,12 @@
 | 4 | Data Cloud — behaviour | 2′ | Vak Snow card → *Our story* twice → home leads with Snow | "Engagement, not a form, decides the hero. In production this score comes from Lytics." |
 | 5 | Data Cloud — Lytics | 1′ | Lytics project, events, Lytics audiences inside Personalize | "Connected and collecting; my trial blocks the audience builder, so the counter stands in." |
 | 6 | **Agent OS** — Demand agent | 5′ | Polaris → `@vak_demand_agent` → confirm → Live Preview → Publish → Snow site | "Launched on demand, runs as me, asks before writing, can't publish." |
-| 7 | **Polaris** — content work | 4′ | Guide *Layering for a cold front*: voice rewrite, SEO, products, it-it, workflow | "Brand Kit voice, Knowledge Vault facts, human approval before anything goes live." |
-| 8 | Partner angle | 2′ | MCP + CLI + scripts, FRICTION_LOG (31 rows) | "Built AI-first with Claude Code and the Contentstack MCP, and here's what I'd fix for partners." |
+| 6b | Agent OS — Campaign Builder | 3′ | Agent built by Polaris from one paragraph → run a brief → draft campaign | "One agent edits, one creates, and Polaris built the second one." |
+| 7 | **Polaris** — content work | 4′ | Guide *Layering for a cold front*: voice rewrite, products, excerpt + SEO written in the entry, it-it, workflow | "Brand Kit voice, Knowledge Vault facts, human approval before anything goes live." |
+| 8 | Partner angle | 2′ | MCP + CLI + scripts, FRICTION_LOG (35 rows) | "Built AI-first with Claude Code and the Contentstack MCP, and here's what I'd fix for partners." |
 | 9 | Close | 1′ | — | AXP sentence below. |
 
-**Total ≈ 25 min.** If short on time: drop 2 (keep Studio only), 5 and 8.
+**Total ≈ 28 min.** If short on time: drop 2 (keep Studio only), 5, 6b and 8.
 
 **Closing sentence:**
 > "Content Cloud holds the content, Data Cloud knows the visitor, Agent OS acts on both, and Polaris is how people talk to it. What you saw is one loop: a signal, an agent, a human decision, a live change, in four markets."

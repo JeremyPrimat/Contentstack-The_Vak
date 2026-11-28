@@ -16,7 +16,7 @@ Target: **25 minutes** + questions. One-page version: `docs/DEMO_SCRIPT_SHORT.md
    5. Contentstack → **Studio** → project → template *Landing page*
    6. Personalize → project → experiences list
    7. Lytics (Contentstack) → project *The Vak* → Dashboard
-   8. Agent OS → Agents → *Vak Demand agent*
+   8. Agent OS → Agents → *Vak Demand agent* (and *Vak Campaign Builder* in a second tab)
    9. Contentstack → stack **Vak Snow** → article *Layering for a cold front*
    10. Launch → the four projects
 3. Warm up once: open each site page, so nothing is cold-starting during the demo.
@@ -131,21 +131,35 @@ Target: **25 minutes** + questions. One-page version: `docs/DEMO_SCRIPT_SHORT.md
 
 🛟 If the agent fails: open **Executions** to show the trace, and say what it does. Then publish nothing and move on.
 
+### 6b. The Campaign Builder — an agent built by an agent — 3 min (optional but strong)
+
+*"The first agent edits what exists. The second one creates something new, and Polaris built it for me from one paragraph."*
+
+▶ Agent OS → *Vak Campaign Builder*: show the trigger (On Demand, input *Campaign brief*), the 5 tools (including **Brand Kit · Get All Voice Profiles**), the step-by-step instructions, no publish tool.
+*"I wrote one paragraph in 'New Agent'. Polaris read the available actions and proposed the trigger, the tools and these instructions. I only tightened the details."*
+
+▶ **Run** → brief: `Cold front weekend in the Alps for Italian and French riders, 5 to 8 December 2026. Push insulated jackets and flat-light goggles.` → Continue → Execute → it reads the products, the Vak Snow voice and the market terms → **"Create this entry?"** → Create.
+▶ Open the new campaign in Vak Snow: headline *"Insulated layers for grey days"*, Ijs + Mist + Helder, markets IT and FR, no image yet. *"A designer adds the photo, someone approves, then it goes live at /campaigns/cold-front-alps-weekend."*
+
+🛟 The URL is unique: run `node scripts/demo-reset.cjs` before a second run with the same brief.
+
 ---
 
 ## 7. Polaris — working on content — 4 min
 
 *"The agent changed what we sell. Now the content around it. Here's a guide a junior writer drafted for the cold front."*
 
-▶ Tab 9, *Layering for a cold front* (draft). Read the first line out loud: *"Get ready for the ULTIMATE winter adventure!!!"* (smile).
+▶ Tab 9, *Layering for a cold front* (draft). Read the first line out loud: *"Get ready for the ULTIMATE winter adventure!!!"* (smile). Open **Polaris** (✦, top right): it takes the entry as context.
 
-1. Select the intro → Polaris, voice profile **Vak Snow**:
-   `Rewrite this paragraph in the Vak Snow voice: casual, informative, a little self-mockery about being Dutch in the mountains, no exclamation marks, no extreme-sports bravado. Keep it under 45 words.`
-   *"The Brand Kit holds each brand's voice. Polaris writes Vak Snow, not generic marketing."*
-2. `Write an excerpt (max 25 words) and an SEO meta title (max 60 characters) and meta description (max 155 characters) for this guide, in the Vak Snow voice.`
-3. `Which Vak Snow products should this guide link to, and why? Use the product catalogue.` → link Ijs, Polder, Helder.
-4. Localize to **it-it** → Polaris translation → show: informal "tu", product names untouched, VLT kept. Move the workflow to **AI draft → In review**.
-   *"The Knowledge Vault holds the translation rules. And the Review workflow with its publish rule means nothing goes live without approval."*
+1. `Rewrite the first paragraph of this guide's body in the Vak Snow voice from the Brand Kit: casual, informative, a little self-mockery about being Dutch in the mountains, no exclamation marks, no extreme-sports bravado. Keep it under 45 words. Show me the new paragraph only, don't change the entry.`
+   → it lists the Brand Kits and voice profiles by itself. *"The Brand Kit holds each brand's voice. Polaris writes Vak Snow, not generic marketing."*
+2. `Which Vak Snow products should this guide link to in Related products, and why? Look at the product entries of this stack.`
+   → Polder, Ijs, Mist, and it explains why it leaves Helder out.
+3. `Fill this entry's Excerpt (max 25 words) and its SEO meta title (max 60 characters) and meta description (max 155 characters), in the Vak Snow voice. Also add those three products to Related products. Don't publish.`
+   → **"Update this entry?"** card → Update. *"Same guardrail as the agents: it proposes, I confirm."*
+4. `Translate this guide into Italian (it-it) for our Milano store, following the Brand Kit translation rules, and save it as the it-it version of this entry. Don't publish.`
+   → **"Localize this entry?"** → Confirm → switch the entry to Italian: "tu", "maschere", product names and VLT kept.
+   *"The Knowledge Vault holds the translation rules. And the Review workflow with its publish rule means it can only go live once it's Approved."*
 
 ▶ Optional, if time: Vak Surf → *Choose a winter wetsuit* in fr-fr: the same flow, already **Approved** and live at `/fr/guides/choose-a-winter-wetsuit`.
 
@@ -157,7 +171,7 @@ Target: **25 minutes** + questions. One-page version: `docs/DEMO_SCRIPT_SHORT.md
 
 *"A word on how this was built, because that's the job I'm applying for. I built it AI-first: Claude Code with the Contentstack MCP server for the content model and seed content, the CLI and the Management API for what MCP can't do yet (assets, locales, Personalize), and idempotent scripts, so every step can be replayed on a new client stack."*
 
-*"And I kept a friction log: thirty-one points, each with time lost and what Contentstack could improve for partners. A few examples: the CLI stack clone drops taxonomies silently, entry variants publish silently without the 3.2 API version, and the audience builder's 'has no value' operator was saved as a double negation."*
+*"And I kept a friction log: thirty-five points, each with time lost and what Contentstack could improve for partners. A few examples: the CLI stack clone drops taxonomies silently, entry variants publish silently without the 3.2 API version, and the audience builder's 'has no value' operator was saved as a double negation."*
 
 💡 This is your differentiator: you used the product like a partner would, and you can feed it back to the product team.
 
@@ -176,7 +190,8 @@ Target: **25 minutes** + questions. One-page version: `docs/DEMO_SCRIPT_SHORT.md
 - **How is caching handled with personalization?** The proxy resolves the variant at the edge and rewrites to a variant-specific path, so ISR caches one copy per variant.
 - **What would you do with Lytics in production?** Replace the front-end counter with Lytics behavioral scores and content affinity; Personalize audiences reference Lytics audiences directly.
 - **How do you stop an agent going rogue?** On-demand trigger, runs as the user, confirmation mode, no publish tool, workflow and publish rules, and the Executions log.
-- **What would you build next?** An event-driven QA agent (on entry update: brand voice and SEO check), a Campaign agent that creates pages from a brief, and Automate to revalidate Launch on publish.
+- **What would you build next?** An event-driven QA agent (on entry update: brand voice and SEO check), the Demand agent fed by a real trend source (Lytics, search console) through its HTTP trigger, and Automate to revalidate Launch on publish.
+- **Is the content real?** Each stack has a model, products, campaigns, and guides in four languages (11 published guides and stories, written with the Brand Kit voices). Photos are royalty-free Unsplash images plus Boardriders photos used with permission.
 
 ---
 

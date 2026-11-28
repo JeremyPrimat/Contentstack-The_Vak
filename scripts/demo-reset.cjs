@@ -3,6 +3,7 @@
  * Puts the Vak Snow demo content back in its starting state, so the AXP demo can be replayed:
  *  - Home page: product carousel "Best sellers" in its original order (the Demand agent reorders it),
  *    saved and published to development.
+ *  - Campaigns drafted by the Campaign Builder agent (never published) are deleted.
  *  - Guide "Layering for a cold front": back to the draft Polaris works on (off-voice intro, no excerpt,
  *    no SEO, no related products, no fr/it/es versions), unpublished.
  *
@@ -91,7 +92,8 @@ async function resetGuide(stack) {
   const entry = await stack.contentType("article").entry(found.uid).fetch({ locale: "en-us" });
   Object.assign(entry, GUIDE);
   await entry.update({ locale: "en-us" });
-  for (const code of extra) await stack.contentType("article").entry(found.uid).unlocalize({ locale: code });
+  // Deleting with a locale removes only that localized version (the en-us master stays).
+  for (const code of extra) await stack.contentType("article").entry(found.uid).delete({ locale: code });
   await stack
     .contentType("article")
     .entry(found.uid)
@@ -99,11 +101,24 @@ async function resetGuide(stack) {
     .catch(() => {}); // never published: nothing to do
 }
 
+/** Campaigns drafted by the Vak Campaign Builder agent: deleted when never published, so the demo can run again. */
+const KEEP_CAMPAIGNS = new Set(["blt5591a4216559d307"]); // First Tracks
+async function resetCampaigns(stack) {
+  const items = (await stack.contentType("campaign").entry().query({ include_publish_details: true }).find()).items || [];
+  const drafts = items.filter((c) => !KEEP_CAMPAIGNS.has(c.uid) && !(c.publish_details || []).length);
+  for (const c of drafts) {
+    console.log(`Campaign "${c.title}" (${c.url}): agent draft → deleted`);
+    if (!DRY) await stack.contentType("campaign").entry(c.uid).delete();
+  }
+  if (!drafts.length) console.log("Campaigns: no agent drafts");
+}
+
 async function main() {
   const client = await managementSDKClient({ host: "api.contentstack.io" });
   const stack = client.stack({ api_key: API_KEY });
   await resetHome(stack);
   await resetGuide(stack);
+  await resetCampaigns(stack);
   console.log(DRY ? "Dry run: nothing changed." : "Vak Snow demo content reset.");
 }
 
