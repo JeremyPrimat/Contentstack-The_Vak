@@ -73,3 +73,14 @@ Use approved for this interview demo (internal, non-commercial). Taken from the 
 | `product-vn-jk-002-5.jpg` | Roxy | https://images.napali.app/global/roxy-products/all/default/hi-res/erjtj03506_roxy,l_gqm0_frt1.jpg |
 | `product-vn-gg-002-1.jpg` | Quiksilver | https://images.napali.app/global/quiksilver-products/all/default/hi-res/eqygl03043_quiksilver,p_gqp0_frt1.jpg |
 | `product-vn-gg-002-2.jpg` | Quiksilver | https://images.napali.app/global/quiksilver-products/all/default/hi-res/eqygl03043_quiksilver,p_kvj0_frt1.jpg |
+
+## Article cover photos (Unsplash, free Unsplash License, downloaded 2026-11-28)
+
+| File | Source image |
+|---|---|
+| `article-surf-winter.jpg` | https://images.unsplash.com/photo-1526241118614-728ce3418077 (https://unsplash.com/photos/b_wcdJKZw0A) |
+| `article-surf-wetsuit-care.jpg` | https://images.unsplash.com/photo-1790089700161-e0e801e4e9f8 (https://unsplash.com/photos/g3TPmtb0JVE) |
+| `article-skate-noord.jpg` | https://images.unsplash.com/photo-1550602081-cfc32634c9bf (https://unsplash.com/photos/ZtOZ6ERQIw8) |
+| `article-skate-shoes.jpg` | https://images.unsplash.com/photo-1612194228259-d240452a64b9 (https://unsplash.com/photos/c__UeXtoPpM) |
+| `article-snow-roadtrip.jpg` | https://images.unsplash.com/photo-1725864832531-f50f4639dd00 (https://unsplash.com/photos/Wkkm_sIFtaw) |
+| `article-snow-waterproof.jpg` | https://images.unsplash.com/photo-1633966967103-f6bd9465b9ca (https://unsplash.com/photos/QRfV7K7CWP4) |
