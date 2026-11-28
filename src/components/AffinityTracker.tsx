@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 type Affinity = "surf" | "skate" | "snow";
@@ -21,26 +22,42 @@ function affinityOfHref(href: string): Affinity | undefined {
 }
 
 /**
- * Behavioral personalization on the group site. The visitor's `affinity` attribute follows what they do:
- *  - opening a brand page of the group site (/brands/vak-snow) → snow;
- *  - clicking through to a brand site (universe tiles, hero CTAs, brand cards, mega menu) → that brand.
- * Personalize stores it against the visitor's id cookie, so the next page served by the proxy
- * (e.g. the home hero) uses it. Explicit ?affinity= links are handled by the proxy.
+ * Behavioral personalization on the group site. Personalize attributes follow what the visitor does:
+ *  - each visit of a brand page of the group site (/brands/vak-snow) increments `snow_views` (an engagement
+ *    counter, kept in localStorage and sent to Personalize); the audience "Snow riders" matches from 2 views;
+ *  - clicking through to a brand site (universe tiles, hero CTAs, brand cards, mega menu) sets `affinity` at once.
+ * Personalize stores them against the visitor's id cookie, so the next page served by the proxy
+ * (e.g. the home hero) uses them. Explicit ?affinity= links are handled by the proxy.
  */
+/** Last path counted, so React's double effects in development do not count one visit twice. */
+let lastCounted = "";
+
 export function AffinityTracker({ projectUid }: { projectUid: string }) {
+  const pathname = usePathname();
   useEffect(() => {
-    let sdk: { set: (attrs: Record<string, string>) => Promise<void> } | undefined;
+    let sdk: { set: (attrs: Record<string, string | number>) => Promise<void> } | undefined;
     const ready = import("@contentstack/personalize-edge-sdk").then(async ({ default: Personalize }) => {
       sdk = await Personalize.init(projectUid);
       return sdk;
     });
-    const remember = async (affinity: Affinity) => {
+    const setAttrs = async (attrs: Record<string, string | number>) => {
       const s = sdk ?? (await ready);
-      await s.set({ affinity });
+      await s.set(attrs);
     };
+    const remember = (affinity: Affinity) => setAttrs({ affinity });
 
-    const page = window.location.pathname.match(/\/brands\/vak-(surf|skate|snow)\b/);
-    if (page) remember(page[1] as Affinity).catch(() => {});
+    const page = pathname.match(/\/brands\/vak-(surf|skate|snow)\b/);
+    const counted = page && lastCounted !== pathname;
+    lastCounted = pathname;
+    if (page && counted) {
+      const key = `${page[1]}_views`;
+      let views = 1;
+      try {
+        views = Number(localStorage.getItem(`vak:${key}`) || 0) + 1;
+        localStorage.setItem(`vak:${key}`, String(views));
+      } catch {}
+      setAttrs({ [key]: views }).catch(() => {});
+    }
 
     const onClick = (event: MouseEvent) => {
       if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -54,6 +71,6 @@ export function AffinityTracker({ projectUid }: { projectUid: string }) {
     };
     document.addEventListener("click", onClick);
     return () => document.removeEventListener("click", onClick);
-  }, [projectUid]);
+  }, [projectUid, pathname]);
   return null;
 }

@@ -79,9 +79,10 @@ async function resolveWith(lang: Lang, slug: string[], preview: PreviewParams | 
       const products = (await api.products()).filter((p) => p.category?.[0]?.uid === category.uid);
       return { kind: "listing", title: category.title, description: category.description, category, products };
     }
-    const brand = await api.brandByUrl(url);
-    if (brand) return { kind: "brand", brand };
   }
+  // Brand entries: /about on a brand site, /brands/vak-snow on the group site.
+  const brand = await api.brandByUrl(url);
+  if (brand) return { kind: "brand", brand };
   return null;
 }
 
