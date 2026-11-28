@@ -46,9 +46,16 @@ export async function proxy(request: NextRequest) {
 
   try {
     const affinity = url.searchParams.get("affinity");
-    const liveAttributes = affinity && AFFINITIES.has(affinity) ? { affinity } : undefined;
+    const explicit = affinity && AFFINITIES.has(affinity) ? { affinity } : undefined;
+    // Brand page view counters (snow_views...) written by AffinityTracker in first-party cookies.
+    const views: Record<string, number> = {};
+    for (const a of AFFINITIES) {
+      const n = Number(request.cookies.get(`vak_${a}_views`)?.value);
+      if (n > 0) views[`${a}_views`] = n;
+    }
+    const liveAttributes = explicit || Object.keys(views).length ? { ...views, ...explicit } : undefined;
     const sdk = await Personalize.init(PERSONALIZE_PROJECT_UID, { request, liveAttributes });
-    if (liveAttributes) await sdk.set(liveAttributes); // remember it for the next visits
+    if (explicit) await sdk.set(explicit); // remember it for the next visits
     const variantParam = sdk.getVariantParam();
     if (isStudio) {
       target.pathname = plainPath;

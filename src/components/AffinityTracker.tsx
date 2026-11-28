@@ -24,7 +24,7 @@ function affinityOfHref(href: string): Affinity | undefined {
 /**
  * Behavioral personalization on the group site. Personalize attributes follow what the visitor does:
  *  - each visit of a brand page of the group site (/brands/vak-snow) increments `snow_views` (an engagement
- *    counter, kept in localStorage and sent to Personalize); the audience "Snow riders" matches from 2 views;
+ *    counter, kept in a cookie and sent to Personalize); the audience "Snow riders" matches from 2 views;
  *  - clicking through to a brand site (universe tiles, hero CTAs, brand cards, mega menu) sets `affinity` at once.
  * Personalize stores them against the visitor's id cookie, so the next page served by the proxy
  * (e.g. the home hero) uses them. Explicit ?affinity= links are handled by the proxy.
@@ -51,11 +51,10 @@ export function AffinityTracker({ projectUid }: { projectUid: string }) {
     lastCounted = pathname;
     if (page && counted) {
       const key = `${page[1]}_views`;
-      let views = 1;
-      try {
-        views = Number(localStorage.getItem(`vak:${key}`) || 0) + 1;
-        localStorage.setItem(`vak:${key}`, String(views));
-      } catch {}
+      // Kept in a first-party cookie: the proxy sends it to Personalize with every request
+      // (live attributes), so the next page is personalized even if this call is lost.
+      const views = Number(document.cookie.match(new RegExp(`(?:^|; )vak_${key}=(\\d+)`))?.[1] || 0) + 1;
+      document.cookie = `vak_${key}=${views}; Max-Age=31536000; Path=/; SameSite=Lax; Secure`;
       setAttrs({ [key]: views }).catch(() => {});
     }
 
