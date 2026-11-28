@@ -1,4 +1,4 @@
-import { dayLabel, t, type Lang } from "@/lib/i18n";
+import { dayLabel, localizeHref, t, type Lang } from "@/lib/i18n";
 import { Rte } from "@/lib/rte";
 import { resolveSiteHref } from "@/lib/site";
 import type { Section } from "@/lib/types";
@@ -125,12 +125,16 @@ function BrandGrid({ data, lang }: Props<"brand_grid">) {
       {data.intro ? <p className="lede narrow" {...data.$?.intro}>{data.intro}</p> : null}
       <div className="grid grid-3">
         {(data.brands ?? []).map((b) => (
-          <a key={b.uid} href={resolveSiteHref(b.site_url, lang)} className="brand-card" style={{ ["--brand" as string]: b.accent_color }}>
+          <div key={b.uid} className="brand-card" style={{ ["--brand" as string]: b.accent_color }}>
             <span className="brand-chip" />
-            <h3 {...b.$?.title}>{b.title}</h3>
+            <h3 {...b.$?.title}>{b.url ? <a href={localizeHref(b.url, lang)}>{b.title}</a> : b.title}</h3>
             {b.tagline ? <p {...b.$?.tagline}>{b.tagline}</p> : null}
             <Rte doc={b.story} className="muted small" cslp={b.$?.story} />
-          </a>
+            <p className="brand-links">
+              {b.url ? <a href={localizeHref(b.url, lang)}>{t(lang).ourStory}</a> : null}
+              {b.site_url ? <a href={resolveSiteHref(b.site_url, lang)}>{t(lang).visitSite} →</a> : null}
+            </p>
+          </div>
         ))}
       </div>
     </section>

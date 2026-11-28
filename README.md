@@ -89,6 +89,12 @@ Personalize project linked to The Vak, custom attribute `affinity`, audiences Su
 - Source of truth: `contentstack/i18n/build_translations.py` (English → fr/it/es, following the Brand Kit: informal address, brand/product/store/campaign names kept in English). `node scripts/translate-content.cjs extract|apply` re-extracts the strings and re-applies/publishes; `scripts/translate-variants.cjs` does the variants.
 - UI labels and store opening days are translated in the front end (`src/lib/i18n.ts`).
 
+### Demo
+
+- `docs/DEMO_SCRIPT_SHORT.md`: the demo on one page. `docs/DEMO_SCRIPT.md`: the full script (clicks, talking points, fallbacks, likely questions). `docs/AI_SHOWCASE.md`: Polaris prompts and the on-demand agents.
+- `node scripts/demo-reset.cjs` puts the Vak Snow demo content back in its starting state (home carousel "Best sellers", the Polaris guide *Layering for a cold front* as an unpublished draft). `--dry-run` shows what would change.
+- **Agent OS**: *Vak Demand agent* (on-demand trigger with inputs *Trend signal* and *Headline*; tools Get Single Entry + Update an Entry on Vak Snow, running as the user; no publish tool) reorders the Vak Snow home "Best sellers" carousel from a trend signal and leaves a draft for review. Run it from Agent OS or from Polaris (`@vak_demand_agent`).
+
 ### Run
 
 ```bash

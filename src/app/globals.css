@@ -138,6 +138,10 @@ p { margin: 0 0 1em; }
 .universe-tagline { opacity: 0.85; font-size: 0.9rem; }
 .brand-card { --brand: var(--accent); text-decoration: none; background: var(--card); border: 1px solid var(--line); border-top: 6px solid var(--brand); border-radius: var(--radius); padding: 24px; display: block; }
 .brand-card:hover { box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07); }
+.brand-card h3 a { color: inherit; text-decoration: none; }
+.brand-links { display: flex; gap: 20px; flex-wrap: wrap; margin: 16px 0 0; font-weight: 600; }
+.brand-links a { color: var(--brand); text-decoration: none; }
+.brand-links a:hover { text-decoration: underline; }
 .brand-chip { display: block; width: 36px; height: 36px; border-radius: 10px; background: var(--brand); margin-bottom: 16px; transform: rotate(-8deg); }
 .category-tile { text-decoration: none; position: relative; display: block; border-radius: var(--radius); overflow: hidden; }
 .category-media { min-height: 260px; border-radius: 0; }
